@@ -1,0 +1,28 @@
+@startuml
+
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Dynamic.puml
+
+Boundary(server1, "Virtual Server 1", "Deployment Node: s000_app001") {
+    Container(service13, "Сервис портала 1.3", "Java Liberica JDK 17, Spring", "Сервис, логи которого нужно агрегировать")
+    Container(service12, "Сервис портала 1.2", "Java Liberica JDK 17, Spring", "Сервис, логи которого нужно агрегировать")
+    Container(service11, "Сервис портала 1.1", "Java Liberica JDK 17, Spring", "Сервис, логи которого нужно агрегировать")
+    Container(collector1, "OpenTelemetry Collector", "GoLang", "Агрегатор трейсов, логов и метрик сервисов на сервере")
+    Rel(service11, collector1, "otlp/http", "4318")
+    Rel(service12, collector1, "otlp/http", "4318")
+    Rel(service13, collector1, "otlp/http", "4318")
+}
+
+Boundary(server2, "Virtual Server 2", "Deployment Node: s000_app002") {
+    Container(service22, "Сервис портала 2.2", "Java Liberica JDK 17, Spring", "Сервис, логи которого нужно агрегировать")
+    Container(service21, "Сервис портала 2.1", "Java Liberica JDK 17, Spring", "Сервис, логи которого нужно агрегировать")
+
+    Container(collector2, "OpenTelemetry Collector", "GoLang", "Агрегатор трейсов, логов и метрик сервисов на сервере")
+    Rel(service22, collector2, "otlp/http", "4318")
+    Rel(service21, collector2, "otlp/http", "4318")
+}
+
+System_Ext(uptrace, "UpTrace", "Система трассировки, сбора логов и метрик")
+Rel(collector1, uptrace, "otlp", "14317")
+Rel(collector2, uptrace, "otlp", "14317")
+
+@enduml

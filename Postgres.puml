@@ -1,0 +1,26 @@
+@startuml
+
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+Boundary(dbnode1, "DbServer1", "Deployment Node: s000_db001") {
+    ContainerDb(master, "Master", "PostgresPro 14", "Мастернода кластера PostgresPro")
+    Container(patrony1, "Patrony", "", "")
+    Rel_L(patrony1, master, "health")
+    Lay_L(patrony1, master)
+}
+
+Boundary(dbnode2, "DbServer2", "Deployment Node: s000_db002") {
+    Container(patrony2, "Patrony", "", "")
+    ContainerDb(sync, "Sync", "PostgresPro 14", "Синхронная реплика кластера PostgresPro")
+    Rel_R(patrony2, sync, "health")
+    Lay_R(patrony2, sync)
+}
+
+Boundary(dbnode3, "DbArbitration", "Deployment Node: s000_db003") {
+    Container(patrony3, "Patrony", "", "")
+}
+BiRel_L(patrony3, patrony1, "")
+BiRel_L(patrony1, patrony2, "")
+BiRel(patrony2, patrony3, "")
+
+@enduml

@@ -1,0 +1,94 @@
+@startuml
+
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+
+' Персоналии
+Person_Ext(user, "Пользователь", "Любой человек - посетитель портала как из браузера, так и с мобильного приложения")
+
+Boundary(portal, "Информационно-аналитический портал", "") {
+    ' Контейнеры
+    Container(spa, "Фронтэнд Портала", "ReactJS","SPA Портала - единый фронтэнд")
+    Container(mobile, "Мобильное приложение Портал", "ReactNative","Мобильное приложение для Портала")
+
+    Container(gateway, "Gateway", "AltLinux 8.4, Java Liberica JDK 17, Spring, Spring Security","Общая точка доступа к порталу из сети Интернет", "", "", "http://yandex.ru")
+
+    Container(analytics, "Сервис аналитики", "AltLinux 8.4, Java Liberica JDK 17, Spring", "Сервис предоставляет ")
+    ContainerDb(analytics_db, "БД сервиса аналитики", "PostgresPro 14", "База подготовленных аналитических данных")
+    Rel(analytics, analytics_db, "JDBC", "5432")
+
+    Container(apostille, "Сервис проверки выписок", "AltLinux 8.4, Java Liberica JDK 17, Spring", "Сервис проверки апостиля, возвращает пользователю информацию об апостиле и документе, на который он проставлен")
+    ContainerDb(apostille_db, "БД выписок", "PostgresPro 14", "База данных выписок, выданных в Основной системе")
+    Rel(apostille, apostille_db, "JDBC", "5432")
+
+    Container(certificate,"Сервис проверки свидетельств","AltLinux 8.4, Java Liberica JDK 17, Spring","Сервис проверки наличия свидетельства в БД Основной системы. ")
+    ContainerDb(certificate_db, "БД свидетельств", "PostgresPro 14", "База данных свидетельств, выданных в Основной системе")
+    Rel(certificate, certificate_db, "JDBC", "5432")
+
+    Container(auth,"Сервис аутентификации и авторизации","AltLinux 8.4, Java Liberica JDK 17, Spring, Spring Security","Сервис аутентификации и авторизации. Позволяет пользователям производить аутентификацию через ЕСИА и выдаёт разрешения на доступ к закрытому разделу")
+
+    Container(payment, "Платёжный шлюз", "AltLinux 8.4, Java Liberica JDK 17, Spring", "Сервис, реализующий функцию передачи и отслеживания запросов на оплату госпошлины")
+    ContainerDb(payment_db, "БД платежного шлюза", "PostgresPro 14", "База данных с историей платежей и ссылками на чеки")
+    Rel(payment, payment_db, "JDBC", "5432")
+
+    Container(dictionary, "Сервис справочной информации", "AltLinux 8.4, Java Liberica JDK 17, Spring", "Сервис, предоставляющий различный справочники. синхронизированные с Основной системой")
+    ContainerDb(dictionary_db, "БД справочников", "PostgresPro 14, Tarntool", "База данных справочников с кешем на Тарантуле")
+    Rel(dictionary, dictionary_db, "JDBC", "5432, 3301")
+
+    Container(developers, "Сервис для разработчиков", "AltLinux 8.4, Java Liberica JDK 17, Spring", "Предоставляет различный справочные материалы и сервисы для разработчиков систем, которым требуется подключение к Основной системе для получения сведений через СМЭВ")
+
+    Container(internal, "Сервис закрытого раздела", "AltLinux 8.4, Java Liberica JDK 17, Spring", "Различные сервисы для сотрудников")
+    ContainerDb(internal_db, "БД закрытого раздела", "PostgresPro 14", "База данных закрытого раздела")
+    Rel(internal, internal_db, "JDBC", "5432")
+
+    ' Внутренние системы
+
+    System(nifi, "Apache NiFI", "Применяется для преобразования и раскладки данных из Основной системы в БД Портала, а так же для сбора аналитической информации и раскладки её во внутреннюю аналитическую БД")
+    Rel_U(nifi, analytics_db, "JDBC", "5432")
+    Rel_U(nifi, apostille_db, "JDBC", "5432")
+    Rel_U(nifi, certificate_db, "JDBC", "5432")
+    Rel_U(nifi, dictionary_db, "JDBC", "5432")
+    Rel_U(nifi, payment_db, "JDBC", "5432")
+
+    ContainerQueue(data_queue, "public.main.portal", "Kafka", "Очередь загрузки данных на портал")
+    Rel_D(nifi, data_queue, "Данны на портал", "9092")
+
+    ContainerQueue(stat_queue, "public.portal.main", "Kafka", "Очередь для отчётов о загрузке данных и статистики оплаты")
+    Rel_D(nifi, stat_queue, "Статистика портала", "9092")
+
+
+    System(uptrace, "UpTrace", "Система трассировки, сбора логов и метрик")
+    System(nomad, "Nomad", "Оркестратор для сервисов без контейнеризации, плюс service discovery, плюс центральное конфигурирование")
+
+
+
+    ' Внутренние Связи
+    Rel(spa, gateway, "Syste", "HTTPS")
+    Rel(mobile, gateway, "REST API", "HTTPS")
+    Rel_L(gateway, nomad, "Service\nDiscovery", "HTTP")
+    Rel_R(gateway, auth, "REST API", "HTTP")
+    Rel(gateway, analytics, "REST API", "HTTP")
+    Rel(gateway, apostille, "REST API", "HTTP")
+    Rel(gateway, certificate, "REST API", "HTTP")
+    Rel(gateway, payment, "REST API", "HTTP")
+    Rel(gateway, dictionary, "REST API", "HTTP")
+    Rel(gateway, developers, "REST API", "HTTP")
+    Rel(gateway, internal, "REST API", "HTTP")
+}
+
+' Внешние системы
+System_Ext(esia, "Поратл ЕСИА", "Единая система идентификации и аутентификации")
+System_Ext(bank, "Платёжный шлюз Банка", "Плтёжный шлюз банка для передачи запросов на оплату госпошлины")
+System_Ext(tsmev, "ТСМЭВ", "Тестовый портал СМЭВ. Используется для отправки эталонных запросов внешним системам")
+System_Ext(portal_puller, "Сервис интеграции с порталом", "Сервис для взаимодействия с Порталом. Передаёт данные для отображения на портале, забирает отчёты о загрузке данных и статистику оплаты")
+Rel_U(portal_puller, data_queue, "Выгрузка на Портал", "9092")
+Rel_U(portal_puller, stat_queue, "Получение с Портала", "9092")
+
+' Внешние Связи
+Rel(user, spa, "REST API", "HTTPS")
+Rel(user, mobile, "REST API", "HTTPS")
+Rel_R(auth, esia, "label", "technology")
+Rel_D(payment, bank, "label", "technology")
+Rel_L(developers, tsmev, "label", "technology")
+
+@enduml

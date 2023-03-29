@@ -1,0 +1,22 @@
+@startuml
+
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+Container_Ext(gateway, "Gateway", "AltLinux 8.4, Java Liberica 17, Spring, Spring Security","Общая точка доступа к порталу из сети Интернет")
+Container_Ext(portal_services, "Сервисы Портала")
+
+Container_Boundary(dictionary, "Справочники") {
+    Container(dict_service, "Сервис справочной информации", "AltLinux 8.4, Java Liberica 17, Spring", "Сервис, предоставляющий различный справочники, синхронизированные с ЕГР ЗАГС")
+    ContainerDb(dict_cache, "Кэш справочников", "Tarantool", "Кэш справочников")
+    Rel(dict_service, dict_cache, "tarantool", "3301")
+
+    ContainerDb(dict_pg, "БД справочников", "PostgresPro 14", "Реплика базы данных справочников")
+    Rel(dict_cache, dict_pg, "pg_connection", "5432")
+    Rel(dict_service, dict_pg, "JDBC", "5432")
+
+}
+Rel_R(gateway, dict_service, "REST API", "HTTP")
+Rel_L(portal_services, dict_service, "REST API", "HTTP")
+System_Ext(nifi, "Apache NiFI", "Применяется для преобразования и раскладки данных из ЕГР ЗАГС в БД Портала, а так же для сбора аналитической информации и раскладки её во внутреннюю аналитическую БД")
+Rel_U(nifi, dict_pg, "JDBC", "5432")
+@enduml

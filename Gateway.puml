@@ -1,0 +1,37 @@
+@startuml
+
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+
+Container_Boundary(gateway, "Gateway") {
+    Boundary(nginx_cluster, "NGINX Cluster", "") {
+        Container(nginx1, "NGINX 1", "NGINX, keepalived, consul_template", "Инстанс Web-сервера (раздаёт фронтэнд) и реверс прокси (маршрутизация к сервисам)")
+        Container(nginx2, "NGINX 2", "NGINX, keepalived, consul_template", "Инстанс Web-сервера (раздаёт фронтэнд) и реверс прокси (маршрутизация к сервисам)")
+        Rel_L(nginx1, nginx2, "Keepalive", "VRRP")
+        Rel_R(nginx2, nginx1, "Keepalive", "VRRP")
+    }
+
+    Container(gate_service, "UI бэкэнд", "AltLinux 8.4, Java Liberica 17, Spring", "Сервис обеспечивающий сохранение настроек пользовательского интерфейса")
+    Rel(nginx1, gate_service, "Keepalive", "VRRP")
+    Rel(nginx2, gate_service, "Keepalive", "VRRP")
+    ContainerDb(gate_db, "UI БД", "PostgresPro 14", "Для долговременного хранения настроек пользовательского интерфейса")
+    Rel(gate_service, gate_db, "JDBC", "5432")
+}
+Container_Ext(spa, "Фронтэнд Портала", "ReactJS","SPA Портала - единый фронтэнд")
+Container_Ext(mobile, "Мобильное приложение Портал", "ReactNative","Мобильное приложение для Портала")
+
+
+Container_Ext(portal_services, "Сервисы Портала")
+
+System_Ext(nomad, "Nomad", "Оркестратор для сервисов без контейнеризации, плюс service discovery, плюс центральное конфигурирование")
+
+Rel(spa, gateway, "REST API", "HTTPS")
+Rel(mobile, gateway, "REST API", "HTTPS")
+
+Rel(nginx1, nomad, "Service\nDiscovery", "HTTP")
+Rel(nginx2, nomad, "Service\nDiscovery", "HTTP")
+
+Rel(gateway, portal_services, "REST API", "HTTP")
+
+
+@enduml
