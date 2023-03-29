@@ -10,7 +10,7 @@ Container_Boundary(dictionary, "Справочники") {
     ContainerDb(dict_cache, "Кэш справочников", "Tarantool", "Кэш справочников")
     Rel(dict_service, dict_cache, "tarantool", "3301")
 
-    ContainerDb(dict_pg, "БД справочников", "PostgresPro 14", "Реплика базы данных справочников")
+    ContainerDb(dict_pg, "БД справочников", "PostgresPro 14", "Реплика базы данных справочников", "", "", "https://raw.githubusercontent.com/gGerret/otus-project/master/svg/Postgres.svg")
     Rel(dict_cache, dict_pg, "pg_connection", "5432")
     Rel(dict_service, dict_pg, "JDBC", "5432")
 

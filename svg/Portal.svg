@@ -1,0 +1,2132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1297.2px" preserveAspectRatio="none" style="width:1385px;height:1297px;" version="1.1" viewBox="0 0 1385 1297" width="1385.4px" zoomAndPan="magnify"><defs/><g><!--MD5=[337ed221eb7a3bcbabacc0028f431697]
+cluster portal--><rect fill="#FFFFFF" height="982.8" style="stroke:#444444;stroke-width:0.6;stroke-dasharray:7.0,7.0;" width="1054.8" x="187.2" y="155.4"/><text fill="#FFFFFF" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="17.4" x="705.9" y="160.3371">«boundary»</text><text fill="#444444" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="193.8" x="617.7" y="172.5656">Информационно-аналитический портал</text><!--MD5=[33573e971ff506c0f246109ca3fd77bd]
+entity spa--><rect fill="#438DD5" height="73.8844" style="stroke:#3C7FC0;stroke-width:0.8999999999999999;" width="104.4" x="645" y="190.8"/><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="39" x="677.7" y="204.2742">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="91.8" x="651.3" y="215.8219">Фронтэнд Портала</text><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="31.2" x="681.6" y="225.4055">[ReactJS]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="0" x="698.4" y="235.7074"/><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="90" x="651" y="246.273">SPA Портала - единый</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="39" x="677.7" y="256.8387">фронтэнд</text><!--MD5=[870e13a82a9bc0252b17e3ad6e742bb1]
+entity mobile--><rect fill="#438DD5" height="85.9594" style="stroke:#3C7FC0;stroke-width:0.8999999999999999;" width="132" x="770.4" y="184.8"/><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="39" x="816.9" y="198.2742">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="117.6" x="776.4" y="209.8219">Мобильное приложение</text><text fill="#FFFFFF" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="35.4" x="818.7" y="221.8969">Портал</text><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="43.8" x="814.5" y="231.4805">[ReactNative]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="0" x="837.6" y="241.7824"/><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="112.8" x="778.8" y="252.348">Мобильное приложение для</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="33.6" x="819.6" y="262.9137">Портала</text><!--MD5=[7b30460008fc71f9986330c33ee2d290]
+entity gateway--><a href="https://raw.githubusercontent.com/gGerret/otus-project/master/svg/Gateway.svg" target="_top" title="https://raw.githubusercontent.com/gGerret/otus-project/master/svg/Gateway.svg" xlink:actuate="onRequest" xlink:href="https://raw.githubusercontent.com/gGerret/otus-project/master/svg/Gateway.svg" xlink:show="new" xlink:title="https://raw.githubusercontent.com/gGerret/otus-project/master/svg/Gateway.svg" xlink:type="simple"><rect fill="#438DD5" height="82.9406" style="stroke:#3C7FC0;stroke-width:0.8999999999999999;" width="129.6" x="702" y="353.1"/><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="39" x="747.3" y="366.5742">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="39.6" x="747" y="378.1219">Gateway</text><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="115.8" x="708" y="387.7055">[AltLinux 8.4, Java Liberica JDK 17,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="76.8" x="728.4" y="396.7617">Spring, Spring Security]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="0" x="768" y="407.0637"/><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="91.8" x="719.7" y="417.6293">Общая точка доступа к</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="104.4" x="714.6" y="428.1949">порталу из сети Интернет</text></a><!--MD5=[ffacdf9ebea6aad8409eca525e77fda7]
+entity analytics--><rect fill="#438DD5" height="72.375" style="stroke:#3C7FC0;stroke-width:0.8999999999999999;" width="129.6" x="347.4" y="555.9"/><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="39" x="392.7" y="569.3742">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="88.8" x="367.8" y="580.9219">Сервис аналитики</text><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="115.8" x="353.4" y="590.5055">[AltLinux 8.4, Java Liberica JDK 17,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="23.4" x="400.5" y="599.5617">Spring]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="0" x="413.4" y="609.8637"/><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="91.2" x="365.4" y="620.4293">Сервис предоставляет</text><!--MD5=[16e46f35f3204f15dd4e75466f8a80a0]
+entity analytics_db--><a href="https://raw.githubusercontent.com/gGerret/otus-project/master/svg/Postgres.svg" target="_top" title="https://raw.githubusercontent.com/gGerret/otus-project/master/svg/Postgres.svg" xlink:actuate="onRequest" xlink:href="https://raw.githubusercontent.com/gGerret/otus-project/master/svg/Postgres.svg" xlink:show="new" xlink:title="https://raw.githubusercontent.com/gGerret/otus-project/master/svg/Postgres.svg" xlink:type="simple"><path d="M361.5,732.6 C361.5,726.6 421.8,726.6 421.8,726.6 C421.8,726.6 482.1,726.6 482.1,732.6 L482.1,799.8844 C482.1,805.8844 421.8,805.8844 421.8,805.8844 C421.8,805.8844 361.5,805.8844 361.5,799.8844 L361.5,732.6 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:0.8999999999999999;"/><path d="M361.5,732.6 C361.5,738.6 421.8,738.6 421.8,738.6 C421.8,738.6 482.1,738.6 482.1,732.6 " fill="none" style="stroke:#3C7FC0;stroke-width:0.8999999999999999;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="39" x="402.3" y="748.4742">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="108.6" x="367.5" y="760.0219">БД сервиса аналитики</text><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="54" x="394.8" y="769.6055">[PostgresPro 14]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="0" x="423" y="779.9074"/><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="85.2" x="378" y="790.473">База подготовленных</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="89.4" x="377.1" y="801.0387">аналитических данных</text></a><!--MD5=[3976d0a043820f2ac8ebb9accc7309c5]
+entity apostille--><rect fill="#438DD5" height="126.7125" style="stroke:#3C7FC0;stroke-width:0.8999999999999999;" width="129.6" x="498" y="528.9"/><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="39" x="543.3" y="542.3742">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="84.6" x="519.3" y="553.9219">Сервис проверки</text><text fill="#FFFFFF" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="42.6" x="541.5" y="565.9969">выписок</text><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="115.8" x="504" y="575.5805">[AltLinux 8.4, Java Liberica JDK 17,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="23.4" x="551.1" y="584.6367">Spring]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="0" x="564" y="594.9387"/><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="109.8" x="506.7" y="605.5043">Сервис проверки апостиля,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="106.2" x="508.5" y="616.0699">возвращает пользователю</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="112.2" x="505.5" y="626.6355">информацию об апостиле и</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="103.8" x="509.7" y="637.2012">документе, на который он</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="46.2" x="539.7" y="647.7668">проставлен</text><!--MD5=[3592b5053d68930b5ffa9c2f359a71da]
+entity apostille_db--><a href="https://raw.githubusercontent.com/gGerret/otus-project/master/svg/Postgres.svg" target="_top" title="https://raw.githubusercontent.com/gGerret/otus-project/master/svg/Postgres.svg" xlink:actuate="onRequest" xlink:href="https://raw.githubusercontent.com/gGerret/otus-project/master/svg/Postgres.svg" xlink:show="new" xlink:title="https://raw.githubusercontent.com/gGerret/otus-project/master/svg/Postgres.svg" xlink:type="simple"><path d="M521.7,727.2 C521.7,721.2 572.4,721.2 572.4,721.2 C572.4,721.2 623.1,721.2 623.1,727.2 L623.1,805.05 C623.1,811.05 572.4,811.05 572.4,811.05 C572.4,811.05 521.7,811.05 521.7,805.05 L521.7,727.2 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:0.8999999999999999;"/><path d="M521.7,727.2 C521.7,733.2 572.4,733.2 572.4,733.2 C572.4,733.2 623.1,733.2 623.1,727.2 " fill="none" style="stroke:#3C7FC0;stroke-width:0.8999999999999999;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="39" x="552.9" y="743.0742">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="58.8" x="543" y="754.6219">БД выписок</text><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="54" x="545.4" y="764.2055">[PostgresPro 14]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="0" x="573.6" y="774.5074"/><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="87" x="527.7" y="785.073">База данных выписок,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="87" x="527.7" y="795.6387">выданных в Основной</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="33" x="555.9" y="806.2043">системе</text></a><!--MD5=[b35a8abb47f5662857adcf2af469e827]
+entity certificate--><rect fill="#438DD5" height="105.5813" style="stroke:#3C7FC0;stroke-width:0.8999999999999999;" width="132" x="648.6" y="539.4"/><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="39" x="695.1" y="552.8742">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="84.6" x="671.1" y="564.4219">Сервис проверки</text><text fill="#FFFFFF" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="67.2" x="681" y="576.4969">свидетельств</text><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="115.8" x="655.8" y="586.0805">[AltLinux 8.4, Java Liberica JDK 17,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="23.4" x="702.9" y="595.1367">Spring]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="0" x="715.8" y="605.4387"/><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="103.2" x="661.8" y="616.0043">Сервис проверки наличия</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="120" x="654.6" y="626.5699">свидетельства в БД Основной</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="36.6" x="695.1" y="637.1355">системы.</text><!--MD5=[31c0e3b690fefab9f9b977c9db700ce4]
+entity certificate_db--><a href="https://raw.githubusercontent.com/gGerret/otus-project/master/svg/Postgres.svg" target="_top" title="https://raw.githubusercontent.com/gGerret/otus-project/master/svg/Postgres.svg" xlink:actuate="onRequest" xlink:href="https://raw.githubusercontent.com/gGerret/otus-project/master/svg/Postgres.svg" xlink:show="new" xlink:title="https://raw.githubusercontent.com/gGerret/otus-project/master/svg/Postgres.svg" xlink:type="simple"><path d="M653.1,727.2 C653.1,721.2 714.6,721.2 714.6,721.2 C714.6,721.2 776.1,721.2 776.1,727.2 L776.1,805.05 C776.1,811.05 714.6,811.05 714.6,811.05 C714.6,811.05 653.1,811.05 653.1,805.05 L653.1,727.2 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:0.8999999999999999;"/><path d="M653.1,727.2 C653.1,733.2 714.6,733.2 714.6,733.2 C714.6,733.2 776.1,733.2 776.1,727.2 " fill="none" style="stroke:#3C7FC0;stroke-width:0.8999999999999999;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="39" x="695.1" y="743.0742">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="83.4" x="672.9" y="754.6219">БД свидетельств</text><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="54" x="687.6" y="764.2055">[PostgresPro 14]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="0" x="715.8" y="774.5074"/><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="108.6" x="659.1" y="785.073">База данных свидетельств,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="87" x="669.9" y="795.6387">выданных в Основной</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="33" x="698.1" y="806.2043">системе</text></a><!--MD5=[e29493a8775effcafa538aa0485107d1]
+entity auth--><rect fill="#438DD5" height="137.2781" style="stroke:#3C7FC0;stroke-width:0.8999999999999999;" width="130.8" x="998.4" y="325.8"/><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="39" x="1044.3" y="339.2742">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="118.8" x="1004.4" y="350.8219">Сервис аутентификации</text><text fill="#FFFFFF" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="70.8" x="1028.4" y="362.8969">и авторизации</text><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="115.8" x="1005" y="372.4805">[AltLinux 8.4, Java Liberica JDK 17,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="76.8" x="1025.4" y="381.5367">Spring, Spring Security]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="0" x="1065" y="391.8387"/><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="105" x="1010.1" y="402.4043">Сервис аутентификации и</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="97.2" x="1014" y="412.9699">авторизации. Позволяет</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="114" x="1005.6" y="423.5355">пользователям производить</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="118.2" x="1004.7" y="434.1012">аутентификацию через ЕСИА</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="99" x="1013.1" y="444.6668">и выдаёт разрешения на</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="111.6" x="1008" y="455.2324">доступ к закрытому разделу</text><!--MD5=[b9b1bc63773a118685e9b5feeb56bf85]
+entity payment--><rect fill="#438DD5" height="104.0719" style="stroke:#3C7FC0;stroke-width:0.8999999999999999;" width="129.6" x="1102.8" y="540.3"/><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="39" x="1148.1" y="553.7742">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="86.4" x="1124.4" y="565.3219">Платёжный шлюз</text><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="115.8" x="1108.8" y="574.9055">[AltLinux 8.4, Java Liberica JDK 17,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="23.4" x="1155.9" y="583.9617">Spring]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="0" x="1168.8" y="594.2637"/><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="88.2" x="1122.3" y="604.8293">Сервис, реализующий</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="83.4" x="1124.7" y="615.3949">функцию передачи и</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="106.8" x="1113" y="625.9605">отслеживания запросов на</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="78.6" x="1128.3" y="636.5262">оплату госпошлины</text><!--MD5=[d665cae492048e3a20c43fdf884087c5]
+entity payment_db--><a href="https://raw.githubusercontent.com/gGerret/otus-project/master/svg/Postgres.svg" target="_top" title="https://raw.githubusercontent.com/gGerret/otus-project/master/svg/Postgres.svg" xlink:actuate="onRequest" xlink:href="https://raw.githubusercontent.com/gGerret/otus-project/master/svg/Postgres.svg" xlink:show="new" xlink:title="https://raw.githubusercontent.com/gGerret/otus-project/master/svg/Postgres.svg" xlink:type="simple"><path d="M1099.5,732.6 C1099.5,726.6 1164.6,726.6 1164.6,726.6 C1164.6,726.6 1229.7,726.6 1229.7,732.6 L1229.7,799.8844 C1229.7,805.8844 1164.6,805.8844 1164.6,805.8844 C1164.6,805.8844 1099.5,805.8844 1099.5,799.8844 L1099.5,732.6 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:0.8999999999999999;"/><path d="M1099.5,732.6 C1099.5,738.6 1164.6,738.6 1164.6,738.6 C1164.6,738.6 1229.7,738.6 1229.7,732.6 " fill="none" style="stroke:#3C7FC0;stroke-width:0.8999999999999999;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="39" x="1145.1" y="748.4742">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="108.6" x="1110.3" y="760.0219">БД платежного шлюза</text><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="54" x="1137.6" y="769.6055">[PostgresPro 14]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="0" x="1165.8" y="779.9074"/><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="96" x="1115.4" y="790.473">База данных с историей</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="118.2" x="1105.5" y="801.0387">платежей и ссылками на чеки</text></a><!--MD5=[7119763da5bba4bb1e8372877bbae62d]
+entity dictionary--><a href="https://raw.githubusercontent.com/gGerret/otus-project/master/svg/Dict.svg" target="_top" title="https://raw.githubusercontent.com/gGerret/otus-project/master/svg/Dict.svg" xlink:actuate="onRequest" xlink:href="https://raw.githubusercontent.com/gGerret/otus-project/master/svg/Dict.svg" xlink:show="new" xlink:title="https://raw.githubusercontent.com/gGerret/otus-project/master/svg/Dict.svg" xlink:type="simple"><rect fill="#438DD5" height="116.1469" style="stroke:#3C7FC0;stroke-width:0.8999999999999999;" width="129.6" x="801.6" y="534"/><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="39" x="846.9" y="547.4742">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="96.6" x="816.9" y="559.0219">Сервис справочной</text><text fill="#FFFFFF" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="62.4" x="835.2" y="571.0969">информации</text><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="115.8" x="807.6" y="580.6805">[AltLinux 8.4, Java Liberica JDK 17,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="23.4" x="854.7" y="589.7367">Spring]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="0" x="867.6" y="600.0387"/><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="107.4" x="811.5" y="610.6043">Сервис, предоставляющий</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="97.2" x="816.6" y="621.1699">различный справочники.</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="90.6" x="819.9" y="631.7355">синхронизированные с</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="79.2" x="826.8" y="642.3012">Основной системой</text></a><!--MD5=[2207e02fcd25cb8aa29260fae57e199c]
+entity dictionary_db--><path d="M799.2,732.6 C799.2,726.6 862.8,726.6 862.8,726.6 C862.8,726.6 926.4,726.6 926.4,732.6 L926.4,799.8844 C926.4,805.8844 862.8,805.8844 862.8,805.8844 C862.8,805.8844 799.2,805.8844 799.2,799.8844 L799.2,732.6 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:0.8999999999999999;"/><path d="M799.2,732.6 C799.2,738.6 862.8,738.6 862.8,738.6 C862.8,738.6 926.4,738.6 926.4,732.6 " fill="none" style="stroke:#3C7FC0;stroke-width:0.8999999999999999;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="39" x="843.3" y="748.4742">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="85.2" x="820.2" y="760.0219">БД справочников</text><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="84.6" x="820.5" y="769.6055">[PostgresPro 14, Tarntool]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="0" x="864" y="779.9074"/><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="112.8" x="805.2" y="790.473">База данных справочников с</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="82.8" x="821.4" y="801.0387">кешем на Тарантуле</text><!--MD5=[00ae9dff0f4157a1e57a574ba384be82]
+entity developers--><rect fill="#438DD5" height="147.8438" style="stroke:#3C7FC0;stroke-width:0.8999999999999999;" width="129.6" x="196.8" y="518.4"/><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="39" x="242.1" y="531.8742">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="55.8" x="232.5" y="543.4219">Сервис для</text><text fill="#FFFFFF" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="72.6" x="225.3" y="555.4969">разработчиков</text><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="115.8" x="202.8" y="565.0805">[AltLinux 8.4, Java Liberica JDK 17,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="23.4" x="249.9" y="574.1367">Spring]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="0" x="262.8" y="584.4387"/><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="105.6" x="207.6" y="595.0043">Предоставляет различный</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="102" x="209.4" y="605.5699">справочные материалы и</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="110.4" x="205.2" y="616.1355">сервисы для разработчиков</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="110.4" x="205.2" y="626.7012">систем, которым требуется</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="100.2" x="210.3" y="637.2668">подключение к Основной</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="94.2" x="213.3" y="647.8324">системе для получения</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="88.2" x="217.5" y="658.398">сведений через СМЭВ</text><!--MD5=[7c78bb30c84a92a815863bc0c3b1b296]
+entity internal--><rect fill="#438DD5" height="95.0156" style="stroke:#3C7FC0;stroke-width:0.8999999999999999;" width="129.6" x="952.2" y="544.8"/><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="39" x="997.5" y="558.2742">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="88.8" x="971.4" y="569.8219">Сервис закрытого</text><text fill="#FFFFFF" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="39" x="997.5" y="581.8969">раздела</text><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="115.8" x="958.2" y="591.4805">[AltLinux 8.4, Java Liberica JDK 17,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="23.4" x="1005.3" y="600.5367">Spring]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="0" x="1018.2" y="610.8387"/><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="95.4" x="968.1" y="621.4043">Различные сервисы для</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="49.2" x="992.4" y="631.9699">сотрудников</text><!--MD5=[d55ec5c18b0db01737e8307e1cfa1739]
+entity internal_db--><a href="https://raw.githubusercontent.com/gGerret/otus-project/master/svg/Postgres.svg" target="_top" title="https://raw.githubusercontent.com/gGerret/otus-project/master/svg/Postgres.svg" xlink:actuate="onRequest" xlink:href="https://raw.githubusercontent.com/gGerret/otus-project/master/svg/Postgres.svg" xlink:show="new" xlink:title="https://raw.githubusercontent.com/gGerret/otus-project/master/svg/Postgres.svg" xlink:type="simple"><path d="M957,732.6 C957,726.6 1017,726.6 1017,726.6 C1017,726.6 1077,726.6 1077,732.6 L1077,799.8844 C1077,805.8844 1017,805.8844 1017,805.8844 C1017,805.8844 957,805.8844 957,799.8844 L957,732.6 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:0.8999999999999999;"/><path d="M957,732.6 C957,738.6 1017,738.6 1017,738.6 C1017,738.6 1077,738.6 1077,732.6 " fill="none" style="stroke:#3C7FC0;stroke-width:0.8999999999999999;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="39" x="997.5" y="748.4742">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="108" x="963" y="760.0219">БД закрытого раздела</text><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="54" x="990" y="769.6055">[PostgresPro 14]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="0" x="1018.2" y="779.9074"/><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="91.8" x="969.9" y="790.473">База данных закрытого</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="32.4" x="1000.8" y="801.0387">раздела</text></a><!--MD5=[689613aed423570a61298b23987bfef7]
+entity nifi--><rect fill="#1168BD" height="128.2219" style="stroke:#3C7FC0;stroke-width:0.8999999999999999;" width="132" x="648.6" y="866.4"/><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="31.8" x="698.7" y="879.8742">«system»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="55.2" x="687" y="891.4219">Apache NiFI</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="0" x="715.8" y="902.2512"/><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="70.2" x="678.3" y="912.8168">Применяется для</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="115.2" x="655.8" y="923.3824">преобразования и раскладки</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="117.6" x="654.6" y="933.948">данных из Основной системы</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="107.4" x="659.7" y="944.5137">в БД Портала, а так же для</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="85.2" x="670.8" y="955.0793">сбора аналитической</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="113.4" x="656.7" y="965.6449">информации и раскладки её</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="61.2" x="682.8" y="976.2105">во внутреннюю</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="73.8" x="677.7" y="986.7762">аналитическую БД</text><!--MD5=[157fba116272f647a2d3819fe098ac55]
+entity data_queue--><path d="M757.2,1055.4 L878.4,1055.4 C881.4,1055.4 881.4,1089.3422 881.4,1089.3422 C881.4,1089.3422 881.4,1123.2844 878.4,1123.2844 L757.2,1123.2844 C754.2,1123.2844 754.2,1089.3422 754.2,1089.3422 C754.2,1089.3422 754.2,1055.4 757.2,1055.4 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:0.8999999999999999;"/><path d="M878.4,1055.4 C875.4,1055.4 875.4,1089.3422 875.4,1089.3422 C875.4,1123.2844 878.4,1123.2844 878.4,1123.2844 " fill="none" style="stroke:#3C7FC0;stroke-width:0.8999999999999999;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="39" x="795.3" y="1065.8742">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="81.6" x="774" y="1077.4219">public.main.portal</text><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="22.8" x="803.4" y="1087.0055">[Kafka]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="0" x="816" y="1097.3074"/><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="112.8" x="757.2" y="1107.873">Очередь загрузки данных на</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="28.2" x="800.7" y="1118.4387">портал</text><!--MD5=[9e1564087f5136ab81f4ea1841645bf9]
+entity stat_queue--><path d="M604.5,1050 L729.9,1050 C732.9,1050 732.9,1089.225 732.9,1089.225 C732.9,1089.225 732.9,1128.45 729.9,1128.45 L604.5,1128.45 C601.5,1128.45 601.5,1089.225 601.5,1089.225 C601.5,1089.225 601.5,1050 604.5,1050 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:0.8999999999999999;"/><path d="M729.9,1050 C726.9,1050 726.9,1089.225 726.9,1089.225 C726.9,1128.45 729.9,1128.45 729.9,1128.45 " fill="none" style="stroke:#3C7FC0;stroke-width:0.8999999999999999;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="39" x="644.7" y="1060.4742">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="81.6" x="623.4" y="1072.0219">public.portal.main</text><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="22.8" x="652.8" y="1081.6055">[Kafka]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="0" x="665.4" y="1091.9074"/><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="92.4" x="616.8" y="1102.473">Очередь для отчётов о</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="117" x="604.5" y="1113.0387">загрузке данных и статистики</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="29.4" x="649.5" y="1123.6043">оплаты</text><!--MD5=[4e0d1dc787efef3e6d00cbc01a5e1805]
+entity uptrace--><a href="https://raw.githubusercontent.com/gGerret/otus-project/master/svg/UpTrace.svg" target="_top" title="https://raw.githubusercontent.com/gGerret/otus-project/master/svg/UpTrace.svg" xlink:actuate="onRequest" xlink:href="https://raw.githubusercontent.com/gGerret/otus-project/master/svg/UpTrace.svg" xlink:show="new" xlink:title="https://raw.githubusercontent.com/gGerret/otus-project/master/svg/UpTrace.svg" xlink:type="simple"><rect fill="#1168BD" height="64.8281" style="stroke:#3C7FC0;stroke-width:0.8999999999999999;" width="129" x="363.3" y="195.3"/><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="31.8" x="411.9" y="208.7742">«system»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="39" x="408.3" y="220.3219">UpTrace</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="0" x="429" y="231.1512"/><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="114.6" x="369.3" y="241.7168">Система трассировки, сбора</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="59.4" x="398.1" y="252.2824">логов и метрик</text></a><!--MD5=[0ccbe66a12fd8a3a31035ec69844f05d]
+entity nomad--><rect fill="#1168BD" height="96.525" style="stroke:#3C7FC0;stroke-width:0.8999999999999999;" width="124.8" x="521.4" y="346.2"/><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="31.8" x="567.9" y="359.6742">«system»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="33" x="567.3" y="371.2219">Nomad</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="0" x="585" y="382.0512"/><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="106.8" x="529.2" y="392.6168">Оркестратор для сервисов</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="110.4" x="527.4" y="403.1824">без контейнеризации, плюс</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="90.6" x="537.3" y="413.748">service discovery, плюс</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="52.8" x="556.2" y="424.3137">центральное</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="74.4" x="546.6" y="434.8793">конфигурирование</text><!--MD5=[8fc3522a43f8c7199df5e09e5bb0188e]
+entity user--><rect fill="#686868" height="104.1938" style="stroke:#8A8A8A;stroke-width:0.8999999999999999;" width="129" x="702.3" y="4.2"/><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="61.8" x="735.9" y="17.6742">«external_person»</text><image height="28.8" width="28.8" x="752.4" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAAB6ElEQVR4Xu2YLY+EMBCG9+dWr0aj0Wg0Go1Go0+j8Xdv2uTCvv1gpt0ebHKPuhDaeW4605Z9mJvx4AdXUyTUdd08z+u6flmWZRnHsWkafk9DptAwDPu+f0eAYtu2PEaGWuj5fCIZrBAC2eLBAnRCsEkkxmeaJp7iDJ2QMDdHsLg8SxKFEJaAo8lAXnmuOFIhTMpxxKATebo4UiFknuNo4OniSIXQyRxEA3YsnjGCVEjVXD7yLUAqxBGUyPv/Y4W2beMgGuS7kVQIBycH0fD+oi5pezQETxdHKmQKGk1eQEYldK+jw5GxPfZ9z7Mk0Qnhf1W1m3w//EUn5BDmSZsbR44QQLBEqrBHqOrmSKaQAxdnLArCrxZcM7A7ZKs4ioRq8LFC+NpC3WCBJsvpVw5edm9iEXFuyNfxXAgSwfrFQ1c0iNda8AdejvUgnktOtJQQxmcfFzGglc5WVCj7oDgFqU18boeFSs52CUh8LE8BIVQDT1ABrB0HtgSEYlX5doJnCwv9TXocKCaKbnwhdDKPq4lf3SwU3HLq4V/+WYhHVMa/3b4IlfyikAduCkcBc7mQ3/z/Qq/cTuikhkzB12Ae/mcJC9U+Vo8Ej1gWAtgbeGgFsAMHr50BIWOLCbezvhpBFUdY6EJuJ/QDW0XoMX60zZ0AAAAASUVORK5CYII=" y="19.2562"/><text fill="#FFFFFF" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="69.6" x="732" y="58.0219">Пользователь</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="0" x="768" y="68.8512"/><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="114" x="708.6" y="79.4168">Любой человек - посетитель</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="114.6" x="708.3" y="89.9824">портала как из браузера, так</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="112.2" x="710.7" y="100.548">и с мобильного приложения</text><!--MD5=[dae17e81a12ccf31b64f986c118a310d]
+entity esia--><rect fill="#999999" height="75.3938" style="stroke:#8A8A8A;stroke-width:0.8999999999999999;" width="84.6" x="1251.9" y="356.7"/><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="62.4" x="1263" y="370.1742">«external_system»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="65.4" x="1261.5" y="381.7219">Поратл ЕСИА</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="0" x="1295.4" y="392.5512"/><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="64.8" x="1260.6" y="403.1168">Единая система</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="70.2" x="1257.9" y="413.6824">идентификации и</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="66.6" x="1260.9" y="424.248">аутентификации</text><!--MD5=[7e4c127a05bd27e533c47e139fcb3c25]
+entity bank--><rect fill="#999999" height="75.3938" style="stroke:#8A8A8A;stroke-width:0.8999999999999999;" width="130.2" x="1251.9" y="728.4"/><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="62.4" x="1285.8" y="741.8742">«external_system»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="117.6" x="1258.2" y="753.4219">Платёжный шлюз Банка</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="0" x="1318.2" y="764.2512"/><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="106.2" x="1262.7" y="774.8168">Плтёжный шлюз банка для</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="118.2" x="1257.9" y="785.3824">передачи запросов на оплату</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="48.6" x="1292.7" y="795.948">госпошлины</text><!--MD5=[6802701b1cded551dea25c6414e829dd]
+entity tsmev--><rect fill="#999999" height="85.9594" style="stroke:#8A8A8A;stroke-width:0.8999999999999999;" width="130.8" x="4.2" y="549.3"/><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="62.4" x="38.4" y="562.7742">«external_system»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="34.8" x="52.2" y="574.3219">ТСМЭВ</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="0" x="70.8" y="585.1512"/><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="97.8" x="19.5" y="595.7168">Тестовый портал СМЭВ.</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="110.4" x="13.2" y="606.2824">Используется для отправки</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="118.8" x="10.2" y="616.848">эталонных запросов внешним</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="39" x="50.1" y="627.4137">системам</text><!--MD5=[e5545720da8f235b7e26878938feca20]
+entity portal_puller--><rect fill="#999999" height="108.6" style="stroke:#8A8A8A;stroke-width:0.8999999999999999;" width="131.4" x="676.5" y="1185"/><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="62.4" x="711" y="1198.4742">«external_system»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="102" x="690" y="1210.0219">Сервис интеграции с</text><text fill="#FFFFFF" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="46.8" x="718.8" y="1222.0969">порталом</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="0" x="743.4" y="1232.9262"/><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="119.4" x="682.5" y="1243.4918">Сервис для взаимодействия с</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="115.2" x="683.4" y="1254.0574">Порталом. Передаёт данные</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="119.4" x="682.5" y="1264.623">для отображения на портале,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="109.2" x="686.4" y="1275.1887">забирает отчёты о загрузке</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="113.4" x="685.5" y="1285.7543">данных и статистику оплаты</text><!--MD5=[de7222a1725a5e5034fac75e04ec1de6]
+link analytics to analytics_db--><path d="M414.192,628.602 C415.692,655.614 417.756,692.802 419.358,721.62 " fill="none" id="analytics-to-analytics_db" style="stroke:#666666;stroke-width:0.6;"/><polygon fill="#666666" points="419.628,726.534,421.1595,721.6417,417.565,721.841,419.628,726.534" style="stroke:#666666;stroke-width:0.6;"/><text fill="#666666" font-family="sans-serif" font-size="7.2" font-weight="bold" lengthAdjust="spacing" textLength="18.6" x="419.7" y="692.0742">JDBC</text><text fill="#666666" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="20.4" x="418.8" y="701.1305">[5432]</text><!--MD5=[7c9b22122c7e28b88a67a328a688ee36]
+link apostille to apostille_db--><path d="M566.292,655.674 C567.402,675.606 568.608,697.344 569.652,716.19 " fill="none" id="apostille-to-apostille_db" style="stroke:#666666;stroke-width:0.6;"/><polygon fill="#666666" points="569.934,721.17,571.4655,716.2777,567.871,716.477,569.934,721.17" style="stroke:#666666;stroke-width:0.6;"/><text fill="#666666" font-family="sans-serif" font-size="7.2" font-weight="bold" lengthAdjust="spacing" textLength="18.6" x="569.7" y="692.0742">JDBC</text><text fill="#666666" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="20.4" x="568.8" y="701.1305">[5432]</text><!--MD5=[235a0a71b009d1a17e5a02d51447f0fc]
+link certificate to certificate_db--><path d="M714.6,645.114 C714.6,667.65 714.6,693.864 714.6,716.082 " fill="none" id="certificate-to-certificate_db" style="stroke:#666666;stroke-width:0.6;"/><polygon fill="#666666" points="714.6,721.05,716.4,716.25,712.8,716.25,714.6,721.05" style="stroke:#666666;stroke-width:0.6;"/><text fill="#666666" font-family="sans-serif" font-size="7.2" font-weight="bold" lengthAdjust="spacing" textLength="18.6" x="716.1" y="692.0742">JDBC</text><text fill="#666666" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="20.4" x="715.2" y="701.1305">[5432]</text><!--MD5=[fc420715b0bc4e6e3b5513f83f0ac6b6]
+link payment to payment_db--><path d="M1166.706,644.178 C1166.28,668.79 1165.776,697.968 1165.362,721.554 " fill="none" id="payment-to-payment_db" style="stroke:#666666;stroke-width:0.6;"/><polygon fill="#666666" points="1165.278,726.498,1167.1634,721.7309,1163.564,721.6666,1165.278,726.498" style="stroke:#666666;stroke-width:0.6;"/><text fill="#666666" font-family="sans-serif" font-size="7.2" font-weight="bold" lengthAdjust="spacing" textLength="18.6" x="1167.3" y="692.0742">JDBC</text><text fill="#666666" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="20.4" x="1166.4" y="701.1305">[5432]</text><!--MD5=[5a39bf4fc37eaa44803960921b16833a]
+link dictionary to dictionary_db--><path d="M865.194,650.58 C864.714,673.746 864.168,700.014 863.718,721.59 " fill="none" id="dictionary-to-dictionary_db" style="stroke:#666666;stroke-width:0.6;"/><polygon fill="#666666" points="863.616,726.402,865.5184,721.6417,861.9192,721.5645,863.616,726.402" style="stroke:#666666;stroke-width:0.6;"/><text fill="#666666" font-family="sans-serif" font-size="7.2" font-weight="bold" lengthAdjust="spacing" textLength="18.6" x="875.7" y="692.0742">JDBC</text><text fill="#666666" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="40.8" x="864.6" y="701.1305">[5432, 3301]</text><!--MD5=[e948c59ff5b1854fd9406eca60573b7c]
+link internal to internal_db--><path d="M1017,639.792 C1017,665.274 1017,696.582 1017,721.59 " fill="none" id="internal-to-internal_db" style="stroke:#666666;stroke-width:0.6;"/><polygon fill="#666666" points="1017,726.504,1018.8,721.704,1015.2,721.704,1017,726.504" style="stroke:#666666;stroke-width:0.6;"/><text fill="#666666" font-family="sans-serif" font-size="7.2" font-weight="bold" lengthAdjust="spacing" textLength="18.6" x="1018.5" y="692.0742">JDBC</text><text fill="#666666" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="20.4" x="1017.6" y="701.1305">[5432]</text><!--MD5=[941ee5681f06ba8c82ebde2c27feb41d]
+reverse link analytics_db to nifi--><path d="M486.42,802.818 C534.546,829.644 600.03,866.142 648.504,893.16 " fill="none" id="analytics_db-backto-nifi" style="stroke:#666666;stroke-width:0.6;"/><polygon fill="#666666" points="482.112,800.418,485.4318,804.3243,487.1817,801.1782,482.112,800.418" style="stroke:#666666;stroke-width:0.6;"/><text fill="#666666" font-family="sans-serif" font-size="7.2" font-weight="bold" lengthAdjust="spacing" textLength="18.6" x="569.7" y="837.2742">JDBC</text><text fill="#666666" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="20.4" x="568.8" y="846.3305">[5432]</text><!--MD5=[0900d3da5bc796a916e40e2521b3b496]
+reverse link apostille_db to nifi--><path d="M614.58,815.208 C628.554,831.246 644.316,849.336 659.13,866.34 " fill="none" id="apostille_db-backto-nifi" style="stroke:#666666;stroke-width:0.6;"/><polygon fill="#666666" points="611.256,811.398,613.0541,816.1987,615.7674,813.8326,611.256,811.398" style="stroke:#666666;stroke-width:0.6;"/><text fill="#666666" font-family="sans-serif" font-size="7.2" font-weight="bold" lengthAdjust="spacing" textLength="18.6" x="644.7" y="837.2742">JDBC</text><text fill="#666666" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="20.4" x="643.8" y="846.3305">[5432]</text><!--MD5=[bd2b1e6e36728aa27a3c69a188805dcb]
+reverse link certificate_db to nifi--><path d="M714.6,816.228 C714.6,832.008 714.6,849.696 714.6,866.34 " fill="none" id="certificate_db-backto-nifi" style="stroke:#666666;stroke-width:0.6;"/><polygon fill="#666666" points="714.6,811.398,712.8,816.198,716.4,816.198,714.6,811.398" style="stroke:#666666;stroke-width:0.6;"/><text fill="#666666" font-family="sans-serif" font-size="7.2" font-weight="bold" lengthAdjust="spacing" textLength="18.6" x="716.1" y="837.2742">JDBC</text><text fill="#666666" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="20.4" x="715.2" y="846.3305">[5432]</text><!--MD5=[113cdffc35ae8c97a339cbc3c1658268]
+reverse link dictionary_db to nifi--><path d="M823.98,809.55 C808.218,826.908 789.672,847.332 772.374,866.376 " fill="none" id="dictionary_db-backto-nifi" style="stroke:#666666;stroke-width:0.6;"/><polygon fill="#666666" points="827.304,805.89,822.7413,808.2271,825.4031,810.6509,827.304,805.89" style="stroke:#666666;stroke-width:0.6;"/><text fill="#666666" font-family="sans-serif" font-size="7.2" font-weight="bold" lengthAdjust="spacing" textLength="18.6" x="803.1" y="837.2742">JDBC</text><text fill="#666666" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="20.4" x="802.2" y="846.3305">[5432]</text><!--MD5=[d29686b2ec69c852ddc289ba423ae614]
+reverse link payment_db to nifi--><path d="M1094.982,807.894 C1092.576,809.046 1090.176,810.15 1087.8,811.2 C983.862,857.142 856.578,893.73 780.726,913.596 " fill="none" id="payment_db-backto-nifi" style="stroke:#666666;stroke-width:0.6;"/><polygon fill="#666666" points="1099.314,805.788,1094.2101,806.2677,1095.784,809.5054,1099.314,805.788" style="stroke:#666666;stroke-width:0.6;"/><text fill="#666666" font-family="sans-serif" font-size="7.2" font-weight="bold" lengthAdjust="spacing" textLength="18.6" x="1040.1" y="837.2742">JDBC</text><text fill="#666666" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="20.4" x="1039.2" y="846.3305">[5432]</text><!--MD5=[2104eea204decae9abdcb81a19d2dfb5]
+link nifi to data_queue--><path d="M756.276,994.806 C768.81,1013.934 782.154,1034.298 793.2,1051.152 " fill="none" id="nifi-to-data_queue" style="stroke:#666666;stroke-width:0.6;"/><polygon fill="#666666" points="795.954,1055.358,794.8312,1050.3561,791.8191,1052.3277,795.954,1055.358" style="stroke:#666666;stroke-width:0.6;"/><text fill="#666666" font-family="sans-serif" font-size="7.2" font-weight="bold" lengthAdjust="spacing" textLength="60.6" x="778.8" y="1020.8742">Данны на портал</text><text fill="#666666" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="20.4" x="798.9" y="1029.9305">[9092]</text><!--MD5=[eeb1dd03b47a3c20705821bdf9a6c87a]
+link nifi to stat_queue--><path d="M695.46,994.806 C690.384,1011.672 685.014,1029.504 680.34,1045.044 " fill="none" id="nifi-to-stat_queue" style="stroke:#666666;stroke-width:0.6;"/><polygon fill="#666666" points="678.912,1049.79,682.0168,1045.7107,678.5689,1044.6751,678.912,1049.79" style="stroke:#666666;stroke-width:0.6;"/><text fill="#666666" font-family="sans-serif" font-size="7.2" font-weight="bold" lengthAdjust="spacing" textLength="69" x="690" y="1020.8742">Статистика портала</text><text fill="#666666" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="20.4" x="714.3" y="1029.9305">[9092]</text><!--MD5=[bd88d6d1dc12ceb86e012b5bc0b44400]
+link spa to gateway--><path d="M712.476,264.642 C722.838,289.302 736.62,322.092 747.708,348.474 " fill="none" id="spa-to-gateway" style="stroke:#666666;stroke-width:0.6;"/><polygon fill="#666666" points="749.604,352.986,749.4025,347.8636,746.084,349.2591,749.604,352.986" style="stroke:#666666;stroke-width:0.6;"/><text fill="#666666" font-family="sans-serif" font-size="7.2" font-weight="bold" lengthAdjust="spacing" textLength="19.2" x="734.1" y="296.6742">Syste</text><text fill="#666666" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="27" x="730.2" y="305.7305">[HTTPS]</text><!--MD5=[200516a84173766e8048583ff15b2ca8]
+link mobile to gateway--><path d="M818.568,270.732 C808.554,294.546 796.068,324.264 785.862,348.54 " fill="none" id="mobile-to-gateway" style="stroke:#666666;stroke-width:0.6;"/><polygon fill="#666666" points="783.984,353.01,787.504,349.2831,784.1855,347.8876,783.984,353.01" style="stroke:#666666;stroke-width:0.6;"/><text fill="#666666" font-family="sans-serif" font-size="7.2" font-weight="bold" lengthAdjust="spacing" textLength="31.2" x="810" y="296.6742">REST API</text><text fill="#666666" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="27" x="812.1" y="305.7305">[HTTPS]</text><!--MD5=[28028c5672247317bcce7d8dbfbfb584]
+reverse link nomad to gateway--><path d="M651.144,394.5 C667.746,394.5 685.488,394.5 701.964,394.5 " fill="none" id="nomad-backto-gateway" style="stroke:#666666;stroke-width:0.6;"/><polygon fill="#666666" points="646.266,394.5,651.066,396.3,651.066,392.7,646.266,394.5" style="stroke:#666666;stroke-width:0.6;"/><text fill="#666666" font-family="sans-serif" font-size="7.2" font-weight="bold" lengthAdjust="spacing" textLength="25.8" x="661.2" y="372.5742">Service</text><text fill="#666666" font-family="sans-serif" font-size="7.2" font-weight="bold" lengthAdjust="spacing" textLength="33.6" x="657.3" y="381.6305">Discovery</text><text fill="#666666" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="22.2" x="663" y="390.6867">[HTTP]</text><!--MD5=[856460606661a8fbb73e35fc699befb5]
+link gateway to auth--><path d="M831.612,394.5 C879.384,394.5 944.31,394.5 993.36,394.5 " fill="none" id="gateway-to-auth" style="stroke:#666666;stroke-width:0.6;"/><polygon fill="#666666" points="998.358,394.5,993.558,392.7,993.558,396.3,998.358,394.5" style="stroke:#666666;stroke-width:0.6;"/><text fill="#666666" font-family="sans-serif" font-size="7.2" font-weight="bold" lengthAdjust="spacing" textLength="31.2" x="899.4" y="381.5742">REST API</text><text fill="#666666" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="22.2" x="903.9" y="390.6305">[HTTP]</text><!--MD5=[a4479e11b4059ec6ac4edcc197ac3ba5]
+link gateway to analytics--><path d="M706.692,435.966 C690.936,445.668 673.68,455.442 657,463.2 C585.276,496.554 555.552,477.576 487.8,518.4 C472.71,527.49 458.262,540.12 446.112,552.336 " fill="none" id="gateway-to-analytics" style="stroke:#666666;stroke-width:0.6;"/><polygon fill="#666666" points="442.746,555.762,447.394,553.5995,444.8259,551.0765,442.746,555.762" style="stroke:#666666;stroke-width:0.6;"/><text fill="#666666" font-family="sans-serif" font-size="7.2" font-weight="bold" lengthAdjust="spacing" textLength="31.2" x="605.4" y="489.2742">REST API</text><text fill="#666666" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="22.2" x="609.9" y="498.3305">[HTTP]</text><!--MD5=[b1fc202d21b468e67ec784ddaa3d6479]
+link gateway to apostille--><path d="M723.96,436.158 C698.976,460.116 666.876,490.944 638.4,518.4 C636.012,520.698 633.588,523.044 631.134,525.408 " fill="none" id="gateway-to-apostille" style="stroke:#666666;stroke-width:0.6;"/><polygon fill="#666666" points="627.528,528.888,632.2317,526.8495,629.7315,524.2593,627.528,528.888" style="stroke:#666666;stroke-width:0.6;"/><text fill="#666666" font-family="sans-serif" font-size="7.2" font-weight="bold" lengthAdjust="spacing" textLength="31.2" x="673.8" y="489.2742">REST API</text><text fill="#666666" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="22.2" x="678.3" y="498.3305">[HTTP]</text><!--MD5=[96f3af8690a9802df7fe4db9264f9f8f]
+link gateway to certificate--><path d="M755.922,436.056 C748.344,464.568 738.144,502.974 729.774,534.486 " fill="none" id="gateway-to-certificate" style="stroke:#666666;stroke-width:0.6;"/><polygon fill="#666666" points="728.496,539.286,731.4629,535.1054,727.9824,534.1854,728.496,539.286" style="stroke:#666666;stroke-width:0.6;"/><text fill="#666666" font-family="sans-serif" font-size="7.2" font-weight="bold" lengthAdjust="spacing" textLength="31.2" x="744" y="489.2742">REST API</text><text fill="#666666" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="22.2" x="748.5" y="498.3305">[HTTP]</text><!--MD5=[3e0141710dad2f89ec4bba3d74641d5d]
+link gateway to payment--><path d="M831.642,411.114 C900.12,429.912 1009.476,465.408 1092.6,518.4 C1100.97,523.74 1109.184,530.124 1116.924,536.874 " fill="none" id="gateway-to-payment" style="stroke:#666666;stroke-width:0.6;"/><polygon fill="#666666" points="1120.68,540.21,1118.291,535.6743,1115.8977,538.3636,1120.68,540.21" style="stroke:#666666;stroke-width:0.6;"/><text fill="#666666" font-family="sans-serif" font-size="7.2" font-weight="bold" lengthAdjust="spacing" textLength="31.2" x="1060.2" y="489.2742">REST API</text><text fill="#666666" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="22.2" x="1064.7" y="498.3305">[HTTP]</text><!--MD5=[638cdce21cbb9e414f0dd19ea60bef39]
+link gateway to dictionary--><path d="M787.56,436.056 C801.252,463.068 819.45,498.972 834.912,529.47 " fill="none" id="gateway-to-dictionary" style="stroke:#666666;stroke-width:0.6;"/><polygon fill="#666666" points="837.168,533.934,836.5947,528.8398,833.3864,530.4728,837.168,533.934" style="stroke:#666666;stroke-width:0.6;"/><text fill="#666666" font-family="sans-serif" font-size="7.2" font-weight="bold" lengthAdjust="spacing" textLength="31.2" x="819.6" y="489.2742">REST API</text><text fill="#666666" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="22.2" x="824.1" y="498.3305">[HTTP]</text><!--MD5=[98b07009f9a3b90554f8a8b9b521872f]
+link gateway to developers--><path d="M711.696,435.96 C694.908,446.52 675.882,456.726 657,463.2 C585.216,487.818 561.948,468.072 487.2,481.2 C419.292,493.128 396.846,484.878 336.6,518.4 C334.572,519.528 332.556,520.728 330.564,521.988 " fill="none" id="gateway-to-developers" style="stroke:#666666;stroke-width:0.6;"/><polygon fill="#666666" points="326.496,524.652,331.4968,523.5243,329.5222,520.5141,326.496,524.652" style="stroke:#666666;stroke-width:0.6;"/><text fill="#666666" font-family="sans-serif" font-size="7.2" font-weight="bold" lengthAdjust="spacing" textLength="31.2" x="487.8" y="489.2742">REST API</text><text fill="#666666" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="22.2" x="492.3" y="498.3305">[HTTP]</text><!--MD5=[c685fac9460d464a754a7e2896fb5c84]
+link gateway to internal--><path d="M830.004,435.99 C864.144,458.958 906.456,488.868 942,518.4 C950.574,525.522 959.334,533.424 967.71,541.332 " fill="none" id="gateway-to-internal" style="stroke:#666666;stroke-width:0.6;"/><polygon fill="#666666" points="971.268,544.716,969.0236,540.107,966.5464,542.7193,971.268,544.716" style="stroke:#666666;stroke-width:0.6;"/><text fill="#666666" font-family="sans-serif" font-size="7.2" font-weight="bold" lengthAdjust="spacing" textLength="31.2" x="919.8" y="489.2742">REST API</text><text fill="#666666" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="22.2" x="924.3" y="498.3305">[HTTP]</text><!--MD5=[9557cf1513bfa8d0cfa2489c431f48be]
+reverse link data_queue to portal_puller--><path d="M800.76,1127.73 C794.922,1140.312 788.244,1154.34 781.8,1167 C778.836,1172.832 775.656,1178.88 772.434,1184.88 " fill="none" id="data_queue-backto-portal_puller" style="stroke:#666666;stroke-width:0.6;"/><polygon fill="#666666" points="802.782,1123.344,799.133,1126.9447,802.4004,1128.4562,802.782,1123.344" style="stroke:#666666;stroke-width:0.6;"/><text fill="#666666" font-family="sans-serif" font-size="7.2" font-weight="bold" lengthAdjust="spacing" textLength="70.8" x="791.4" y="1155.8742">Выгрузка на Портал</text><text fill="#666666" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="20.4" x="816.6" y="1164.9305">[9092]</text><!--MD5=[0411ddc5f3dff726767c3788ad02ab63]
+reverse link stat_queue to portal_puller--><path d="M685.446,1133.082 C690.408,1144.236 695.922,1156.152 701.4,1167 C704.37,1172.88 707.586,1178.964 710.874,1184.988 " fill="none" id="stat_queue-backto-portal_puller" style="stroke:#666666;stroke-width:0.6;"/><polygon fill="#666666" points="683.502,1128.684,683.7899,1133.8023,687.0844,1132.3509,683.502,1128.684" style="stroke:#666666;stroke-width:0.6;"/><text fill="#666666" font-family="sans-serif" font-size="7.2" font-weight="bold" lengthAdjust="spacing" textLength="76.8" x="702" y="1155.8742">Получение с Портала</text><text fill="#666666" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="20.4" x="730.2" y="1164.9305">[9092]</text><!--MD5=[f01566b2b60b280485eda08a2d99c8d8]
+link user to spa--><path d="M745.632,108.726 C735.474,133.56 723.468,162.894 713.958,186.15 " fill="none" id="user-to-spa" style="stroke:#666666;stroke-width:0.6;"/><polygon fill="#666666" points="712.086,190.716,715.57,186.9554,712.2382,185.5919,712.086,190.716" style="stroke:#666666;stroke-width:0.6;"/><text fill="#666666" font-family="sans-serif" font-size="7.2" font-weight="bold" lengthAdjust="spacing" textLength="31.2" x="738.6" y="134.6742">REST API</text><text fill="#666666" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="27" x="740.7" y="143.7305">[HTTPS]</text><!--MD5=[323da60eac6a5860915577cd1b5cc289]
+link user to mobile--><path d="M787.968,108.726 C797.262,131.448 808.104,157.938 817.164,180.096 " fill="none" id="user-to-mobile" style="stroke:#666666;stroke-width:0.6;"/><polygon fill="#666666" points="819.072,184.752,818.9198,179.6279,815.588,180.9914,819.072,184.752" style="stroke:#666666;stroke-width:0.6;"/><text fill="#666666" font-family="sans-serif" font-size="7.2" font-weight="bold" lengthAdjust="spacing" textLength="31.2" x="802.2" y="134.6742">REST API</text><text fill="#666666" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="27" x="804.3" y="143.7305">[HTTPS]</text><!--MD5=[ecd12c06d39ea09c73468a00fee079c0]
+link auth to esia--><path d="M1129.206,394.5 C1166.676,394.5 1212.852,394.5 1246.812,394.5 " fill="none" id="auth-to-esia" style="stroke:#666666;stroke-width:0.6;"/><polygon fill="#666666" points="1251.732,394.5,1246.932,392.7,1246.932,396.3,1251.732,394.5" style="stroke:#666666;stroke-width:0.6;"/><text fill="#666666" font-family="sans-serif" font-size="7.2" font-weight="bold" lengthAdjust="spacing" textLength="16.2" x="1182.45" y="381.5742">label</text><text fill="#666666" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="39.6" x="1170.75" y="390.6305">[technology]</text><!--MD5=[aa8aecbc8d11c2b064293f18dcca89c8]
+link payment to bank--><path d="M1212.018,644.178 C1234.146,669.768 1260.54,700.296 1281.324,724.338 " fill="none" id="payment-to-bank" style="stroke:#666666;stroke-width:0.6;"/><polygon fill="#666666" points="1284.612,728.142,1282.8381,723.3323,1280.1129,725.6847,1284.612,728.142" style="stroke:#666666;stroke-width:0.6;"/><text fill="#666666" font-family="sans-serif" font-size="7.2" font-weight="bold" lengthAdjust="spacing" textLength="16.2" x="1272.3" y="692.0742">label</text><text fill="#666666" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="39.6" x="1260.6" y="701.1305">[technology]</text><!--MD5=[c8f0c63afd755da3e21eeb5f8f8e0bfb]
+reverse link tsmev to developers--><path d="M140.07,592.2 C158.586,592.2 178.47,592.2 196.68,592.2 " fill="none" id="tsmev-backto-developers" style="stroke:#666666;stroke-width:0.6;"/><polygon fill="#666666" points="135.138,592.2,139.938,594,139.938,590.4,135.138,592.2" style="stroke:#666666;stroke-width:0.6;"/><text fill="#666666" font-family="sans-serif" font-size="7.2" font-weight="bold" lengthAdjust="spacing" textLength="16.2" x="157.8" y="579.2742">label</text><text fill="#666666" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="39.6" x="146.1" y="588.3305">[technology]</text><!--MD5=[2c0ef81a39c7f1dbfeabceba3e71a257]
+@startuml
+
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+
+' Персоналии
+Person_Ext(user, "Пользователь", "Любой человек - посетитель портала как из браузера, так и с мобильного приложения")
+
+Boundary(portal, "Информационно-аналитический портал", "") {
+    ' Контейнеры
+    Container(spa, "Фронтэнд Портала", "ReactJS","SPA Портала - единый фронтэнд")
+    Container(mobile, "Мобильное приложение Портал", "ReactNative","Мобильное приложение для Портала")
+
+    Container(gateway, "Gateway", "AltLinux 8.4, Java Liberica JDK 17, Spring, Spring Security","Общая точка доступа к порталу из сети Интернет", "", "", "https://raw.githubusercontent.com/gGerret/otus-project/master/svg/Gateway.svg")
+
+    Container(analytics, "Сервис аналитики", "AltLinux 8.4, Java Liberica JDK 17, Spring", "Сервис предоставляет ")
+    ContainerDb(analytics_db, "БД сервиса аналитики", "PostgresPro 14", "База подготовленных аналитических данных", "", "", "https://raw.githubusercontent.com/gGerret/otus-project/master/svg/Postgres.svg")
+    Rel(analytics, analytics_db, "JDBC", "5432")
+
+    Container(apostille, "Сервис проверки выписок", "AltLinux 8.4, Java Liberica JDK 17, Spring", "Сервис проверки апостиля, возвращает пользователю информацию об апостиле и документе, на который он проставлен")
+    ContainerDb(apostille_db, "БД выписок", "PostgresPro 14", "База данных выписок, выданных в Основной системе", "", "", "https://raw.githubusercontent.com/gGerret/otus-project/master/svg/Postgres.svg")
+    Rel(apostille, apostille_db, "JDBC", "5432")
+
+    Container(certificate,"Сервис проверки свидетельств","AltLinux 8.4, Java Liberica JDK 17, Spring","Сервис проверки наличия свидетельства в БД Основной системы. ")
+    ContainerDb(certificate_db, "БД свидетельств", "PostgresPro 14", "База данных свидетельств, выданных в Основной системе", "", "", "https://raw.githubusercontent.com/gGerret/otus-project/master/svg/Postgres.svg")
+    Rel(certificate, certificate_db, "JDBC", "5432")
+
+    Container(auth,"Сервис аутентификации и авторизации","AltLinux 8.4, Java Liberica JDK 17, Spring, Spring Security","Сервис аутентификации и авторизации. Позволяет пользователям производить аутентификацию через ЕСИА и выдаёт разрешения на доступ к закрытому разделу")
+
+    Container(payment, "Платёжный шлюз", "AltLinux 8.4, Java Liberica JDK 17, Spring", "Сервис, реализующий функцию передачи и отслеживания запросов на оплату госпошлины")
+    ContainerDb(payment_db, "БД платежного шлюза", "PostgresPro 14", "База данных с историей платежей и ссылками на чеки", "", "", "https://raw.githubusercontent.com/gGerret/otus-project/master/svg/Postgres.svg")
+    Rel(payment, payment_db, "JDBC", "5432")
+
+    Container(dictionary, "Сервис справочной информации", "AltLinux 8.4, Java Liberica JDK 17, Spring", "Сервис, предоставляющий различный справочники. синхронизированные с Основной системой", "", "", "https://raw.githubusercontent.com/gGerret/otus-project/master/svg/Dict.svg")
+    ContainerDb(dictionary_db, "БД справочников", "PostgresPro 14, Tarntool", "База данных справочников с кешем на Тарантуле")
+    Rel(dictionary, dictionary_db, "JDBC", "5432, 3301")
+
+    Container(developers, "Сервис для разработчиков", "AltLinux 8.4, Java Liberica JDK 17, Spring", "Предоставляет различный справочные материалы и сервисы для разработчиков систем, которым требуется подключение к Основной системе для получения сведений через СМЭВ")
+
+    Container(internal, "Сервис закрытого раздела", "AltLinux 8.4, Java Liberica JDK 17, Spring", "Различные сервисы для сотрудников")
+    ContainerDb(internal_db, "БД закрытого раздела", "PostgresPro 14", "База данных закрытого раздела", "", "", "https://raw.githubusercontent.com/gGerret/otus-project/master/svg/Postgres.svg")
+    Rel(internal, internal_db, "JDBC", "5432")
+
+    ' Внутренние системы
+
+    System(nifi, "Apache NiFI", "Применяется для преобразования и раскладки данных из Основной системы в БД Портала, а так же для сбора аналитической информации и раскладки её во внутреннюю аналитическую БД")
+    Rel_U(nifi, analytics_db, "JDBC", "5432")
+    Rel_U(nifi, apostille_db, "JDBC", "5432")
+    Rel_U(nifi, certificate_db, "JDBC", "5432")
+    Rel_U(nifi, dictionary_db, "JDBC", "5432")
+    Rel_U(nifi, payment_db, "JDBC", "5432")
+
+    ContainerQueue(data_queue, "public.main.portal", "Kafka", "Очередь загрузки данных на портал")
+    Rel_D(nifi, data_queue, "Данны на портал", "9092")
+
+    ContainerQueue(stat_queue, "public.portal.main", "Kafka", "Очередь для отчётов о загрузке данных и статистики оплаты")
+    Rel_D(nifi, stat_queue, "Статистика портала", "9092")
+
+
+    System(uptrace, "UpTrace", "Система трассировки, сбора логов и метрик", "", "", "https://raw.githubusercontent.com/gGerret/otus-project/master/svg/UpTrace.svg")
+    System(nomad, "Nomad", "Оркестратор для сервисов без контейнеризации, плюс service discovery, плюс центральное конфигурирование")
+
+
+
+    ' Внутренние Связи
+    Rel(spa, gateway, "Syste", "HTTPS")
+    Rel(mobile, gateway, "REST API", "HTTPS")
+    Rel_L(gateway, nomad, "Service\nDiscovery", "HTTP")
+    Rel_R(gateway, auth, "REST API", "HTTP")
+    Rel(gateway, analytics, "REST API", "HTTP")
+    Rel(gateway, apostille, "REST API", "HTTP")
+    Rel(gateway, certificate, "REST API", "HTTP")
+    Rel(gateway, payment, "REST API", "HTTP")
+    Rel(gateway, dictionary, "REST API", "HTTP")
+    Rel(gateway, developers, "REST API", "HTTP")
+    Rel(gateway, internal, "REST API", "HTTP")
+}
+
+' Внешние системы
+System_Ext(esia, "Поратл ЕСИА", "Единая система идентификации и аутентификации")
+System_Ext(bank, "Платёжный шлюз Банка", "Плтёжный шлюз банка для передачи запросов на оплату госпошлины")
+System_Ext(tsmev, "ТСМЭВ", "Тестовый портал СМЭВ. Используется для отправки эталонных запросов внешним системам")
+System_Ext(portal_puller, "Сервис интеграции с порталом", "Сервис для взаимодействия с Порталом. Передаёт данные для отображения на портале, забирает отчёты о загрузке данных и статистику оплаты")
+Rel_U(portal_puller, data_queue, "Выгрузка на Портал", "9092")
+Rel_U(portal_puller, stat_queue, "Получение с Портала", "9092")
+
+' Внешние Связи
+Rel(user, spa, "REST API", "HTTPS")
+Rel(user, mobile, "REST API", "HTTPS")
+Rel_R(auth, esia, "label", "technology")
+Rel_D(payment, bank, "label", "technology")
+Rel_L(developers, tsmev, "label", "technology")
+
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam shadowing<<legendArea>> false
+skinparam rectangle<<legendArea>> {
+    backgroundcolor #00000000
+    bordercolor #00000000
+}
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam person {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam actor {
+    StereotypeFontSize 12
+    shadowing false
+    style awesome
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 6
+    StereotypeFontColor transparent
+    BorderStyle dashed
+}
+
+skinparam package {
+    StereotypeFontSize 6
+    StereotypeFontColor transparent
+    FontStyle plain
+    BackgroundColor transparent
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam database<<boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam queue<<boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam person<<boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam actor<<boundary>> {
+    FontColor transparent
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam package<<boundary>>StereotypeFontColor transparent
+skinparam rectangle<<boundary>>StereotypeFontColor transparent
+
+skinparam rectangle<<enterprise_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam database<<enterprise_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam queue<<enterprise_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam person<<enterprise_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam actor<<enterprise_boundary>> {
+    FontColor transparent
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam package<<enterprise_boundary>>StereotypeFontColor transparent
+skinparam rectangle<<enterprise_boundary>>StereotypeFontColor transparent
+
+
+skinparam rectangle<<system_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam database<<system_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam queue<<system_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam person<<system_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam actor<<system_boundary>> {
+    FontColor transparent
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam package<<system_boundary>>StereotypeFontColor transparent
+skinparam rectangle<<system_boundary>>StereotypeFontColor transparent
+
+
+skinparam rectangle<<container_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam database<<container_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam queue<<container_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam person<<container_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam actor<<container_boundary>> {
+    FontColor transparent
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam package<<container_boundary>>StereotypeFontColor transparent
+skinparam rectangle<<container_boundary>>StereotypeFontColor transparent
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam database<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam queue<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam person<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam actor<<person>> {
+    StereotypeFontColor #08427B
+    FontColor #08427B
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam database<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam person<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam actor<<external_person>> {
+    StereotypeFontColor #686868
+    FontColor #686868
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam database<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam queue<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam person<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam actor<<system>> {
+    StereotypeFontColor #1168BD
+    FontColor #1168BD
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam database<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam person<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam actor<<external_system>> {
+    StereotypeFontColor #999999
+    FontColor #999999
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+
+skinparam rectangle<<enterprise_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam database<<enterprise_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam queue<<enterprise_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam person<<enterprise_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam actor<<enterprise_boundary>> {
+    FontColor transparent
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam package<<enterprise_boundary>>StereotypeFontColor transparent
+skinparam rectangle<<enterprise_boundary>>StereotypeFontColor transparent
+
+
+skinparam rectangle<<system_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam database<<system_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam queue<<system_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam person<<system_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam actor<<system_boundary>> {
+    FontColor transparent
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam package<<system_boundary>>StereotypeFontColor transparent
+skinparam rectangle<<system_boundary>>StereotypeFontColor transparent
+
+
+
+
+
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+sprite $person2 [48x48/16] {
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000002578888300000000005888864100000000000
+0000000007DFFFFFFFFD9643347BFFFFFFFFFB4000000000
+00000004EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB10000000
+0000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD2000000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+00003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+0000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF50000
+0003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD0000
+0009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF2000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+0009FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFF2000
+0003FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFD0000
+0000BFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFF50000
+00003FFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFB00000
+000006FFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFE100000
+0000007FFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFD2000000
+00000004EFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFB10000000
+0000000007DF8FFFFFFFFFFFFFFFFFFFFFF8FB4000000000
+000000000002578888888888888888888864100000000000
+}
+
+sprite $robot [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000005BFFFFFFFFFFFFFFFFFFFFFE9100000000000
+0000000000AFFFFFFFFFFFFFFFFFFFFFFFFFE30000000000
+0000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFE1000000000
+000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000000000
+000000004FFFFFFFFFFFFFFFFFFFFFFFFFFFFFC000000000
+000000005FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000000
+000000005FFFFFFFFFFFFFFFFFFFFFFFFFFFFFE000000000
+000000005FFFFFFFFFFFFFFFFFFFFFFFFFFFFFE000000000
+000699405FFFFFFC427FFFFFFFFFC427FFFFFFE009982000
+008FFF705FFFFFE10006FFFFFFFE00007FFFFFE00FFFF100
+00CFFF705FFFFFA00001FFFFFFF900002FFFFFE00FFFF500
+00DFFF705FFFFFB00002FFFFFFFA00003FFFFFE00FFFF500
+00DFFF705FFFFFF4000AFFFFFFFF3000BFFFFFE00FFFF500
+00DFFF705FFFFFFFA8DFFFFFFFFFFA8DFFFFFFE00FFFF500
+00DFFF705FFFFFFFFFFFFFFFFFFFFFFFFFFFFFE00FFFF500
+00DFFF705FFFFFFFFFFFFFFFFFFFFFFFFFFFFFE00FFFF500
+00DFFF705FFFFFFFFFFFFFFFFFFFFFFFFFFFFFE00FFFF500
+00DFFF705FFFFFFFFFFFFFFFFFFFFFFFFFFFFFE00FFFF500
+00DFFF705FFFFFFFFFFFFFFFFFFFFFFFFFFFFFE00FFFF500
+00CFFF705FFFFFF87777777777777777CFFFFFE00FFFF500
+008FFF705FFFFFF100000000000000009FFFFFE00FFFF100
+000699405FFFFFF76666666666666666CFFFFFE009982000
+000000005FFFFFFFFFFFFFFFFFFFFFFFFFFFFFE000000000
+000000005FFFFFFFFFFFFFFFFFFFFFFFFFFFFFE000000000
+000000004FFFFFFFFFFFFFFFFFFFFFFFFFFFFFC000000000
+000000000EFFFFFFFFFFFFFFFFFFFFFFFFFFFF7000000000
+0000000005FFFFFFFFFFFFFFFFFFFFFFFFFFFD0000000000
+00000000004CFFFFFFFFFFFFFFFFFFFFFFFF910000000000
+000000000000011111111111111111111110000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+sprite $robot2 [48x48/16] {
+000000000000000088888888888888880000000000000000
+000000000000000AFFFFFFFFFFFFFFFFA000000000000000
+00000000000000CFFFFFFFFFFFFFFFFFFC00000000000000
+00000000000004EFFFFFFFFFFFFFFFFFFE40000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFFA0000000000000
+00000000000008FFFFFFFFFFFFFFFFFFFF80000000000000
+00000000000008FFFFFFFFFFFFFFFFFFFF80000000000000
+00000000000008FFFFFFFFFFFFFFFFFFFF80000000000000
+00000000000888FFFFFFFFFFFFFFFFFFFF88800000000000
+00000000008FF8FFFFFFFFFFFFFFFFFFFF8FF80000000000
+00000000008FF8FFFFFFFFFFFFFFFFFFFF8FF80000000000
+00000000008FF8FFFFFFFFFFFFFFFFFFFF8FF80000000000
+00000000008FF8FFFFFFFFFFFFFFFFFFFF8FF80000000000
+00000000008FF8FFFFFFFFFFFFFFFFFFFF8FF80000000000
+00000000008FF8FFFFFFFFFFFFFFFFFFFF8FF80000000000
+00000000000888FFFFFFFFFFFFFFFFFFFF88800000000000
+00000000000008FFFFFFFFFFFFFFFFFFFF80000000000000
+00000000000008FFFFFFFFFFFFFFFFFFFF80000000000000
+00000000000008FFFFFFFFFFFFFFFFFFFF80000000000000
+00000000000008FFFFFFFFFFFFFFFFFFFF80000000000000
+00000000000008FFFFFFFFFFFFFFFFFFFF80000000000000
+00000000000004CFFFFFFFFFFFFFFFFFFC40000000000000
+000000488888848CFFFFFFFFFFFFFFFFC848888884000000
+00000CFFFFFFFFC888888888888888888CFFFFFFFFC00000
+00008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF80000
+0000CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFC0000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFF8000
+0008FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFF8000
+0008FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFF8000
+0008FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFF8000
+0000CFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFC0000
+00008FFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFF80000
+00000CFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFC00000
+000000488887578888888888888888888864688884000000
+000000000000000000000000000000000000000000000000
+}
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam database<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam queue<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam person<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam actor<<person>> {
+    StereotypeFontColor #08427B
+    FontColor #08427B
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam database<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam person<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam actor<<external_person>> {
+    StereotypeFontColor #686868
+    FontColor #686868
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam queue<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam person<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam actor<<container>> {
+    StereotypeFontColor #438DD5
+    FontColor #438DD5
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam database<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam queue<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam person<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam actor<<external_container>> {
+    StereotypeFontColor #B3B3B3
+    FontColor #B3B3B3
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+
+skinparam rectangle<<container_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam database<<container_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam queue<<container_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam person<<container_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam actor<<container_boundary>> {
+    FontColor transparent
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam package<<container_boundary>>StereotypeFontColor transparent
+skinparam rectangle<<container_boundary>>StereotypeFontColor transparent
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam shadowing<<legendArea>> false
+skinparam rectangle<<legendArea>> {
+    backgroundcolor #00000000
+    bordercolor #00000000
+}
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam person {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam actor {
+    StereotypeFontSize 12
+    shadowing false
+    style awesome
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 6
+    StereotypeFontColor transparent
+    BorderStyle dashed
+}
+
+skinparam package {
+    StereotypeFontSize 6
+    StereotypeFontColor transparent
+    FontStyle plain
+    BackgroundColor transparent
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam database<<boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam queue<<boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam person<<boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam actor<<boundary>> {
+    FontColor transparent
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam package<<boundary>>StereotypeFontColor transparent
+skinparam rectangle<<boundary>>StereotypeFontColor transparent
+
+skinparam rectangle<<enterprise_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam database<<enterprise_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam queue<<enterprise_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam person<<enterprise_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam actor<<enterprise_boundary>> {
+    FontColor transparent
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam package<<enterprise_boundary>>StereotypeFontColor transparent
+skinparam rectangle<<enterprise_boundary>>StereotypeFontColor transparent
+
+
+skinparam rectangle<<system_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam database<<system_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam queue<<system_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam person<<system_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam actor<<system_boundary>> {
+    FontColor transparent
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam package<<system_boundary>>StereotypeFontColor transparent
+skinparam rectangle<<system_boundary>>StereotypeFontColor transparent
+
+
+skinparam rectangle<<container_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam database<<container_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam queue<<container_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam person<<container_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam actor<<container_boundary>> {
+    FontColor transparent
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam package<<container_boundary>>StereotypeFontColor transparent
+skinparam rectangle<<container_boundary>>StereotypeFontColor transparent
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam database<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam queue<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam person<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam actor<<person>> {
+    StereotypeFontColor #08427B
+    FontColor #08427B
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam database<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam person<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam actor<<external_person>> {
+    StereotypeFontColor #686868
+    FontColor #686868
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam database<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam queue<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam person<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam actor<<system>> {
+    StereotypeFontColor #1168BD
+    FontColor #1168BD
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam database<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam person<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam actor<<external_system>> {
+    StereotypeFontColor #999999
+    FontColor #999999
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+
+skinparam rectangle<<enterprise_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam database<<enterprise_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam queue<<enterprise_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam person<<enterprise_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam actor<<enterprise_boundary>> {
+    FontColor transparent
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam package<<enterprise_boundary>>StereotypeFontColor transparent
+skinparam rectangle<<enterprise_boundary>>StereotypeFontColor transparent
+
+
+skinparam rectangle<<system_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam database<<system_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam queue<<system_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam person<<system_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam actor<<system_boundary>> {
+    FontColor transparent
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam package<<system_boundary>>StereotypeFontColor transparent
+skinparam rectangle<<system_boundary>>StereotypeFontColor transparent
+
+
+
+
+
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+sprite $person2 [48x48/16] {
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000002578888300000000005888864100000000000
+0000000007DFFFFFFFFD9643347BFFFFFFFFFB4000000000
+00000004EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB10000000
+0000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD2000000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+00003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+0000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF50000
+0003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD0000
+0009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF2000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+0009FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFF2000
+0003FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFD0000
+0000BFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFF50000
+00003FFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFB00000
+000006FFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFE100000
+0000007FFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFD2000000
+00000004EFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFB10000000
+0000000007DF8FFFFFFFFFFFFFFFFFFFFFF8FB4000000000
+000000000002578888888888888888888864100000000000
+}
+
+sprite $robot [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000005BFFFFFFFFFFFFFFFFFFFFFE9100000000000
+0000000000AFFFFFFFFFFFFFFFFFFFFFFFFFE30000000000
+0000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFE1000000000
+000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000000000
+000000004FFFFFFFFFFFFFFFFFFFFFFFFFFFFFC000000000
+000000005FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000000
+000000005FFFFFFFFFFFFFFFFFFFFFFFFFFFFFE000000000
+000000005FFFFFFFFFFFFFFFFFFFFFFFFFFFFFE000000000
+000699405FFFFFFC427FFFFFFFFFC427FFFFFFE009982000
+008FFF705FFFFFE10006FFFFFFFE00007FFFFFE00FFFF100
+00CFFF705FFFFFA00001FFFFFFF900002FFFFFE00FFFF500
+00DFFF705FFFFFB00002FFFFFFFA00003FFFFFE00FFFF500
+00DFFF705FFFFFF4000AFFFFFFFF3000BFFFFFE00FFFF500
+00DFFF705FFFFFFFA8DFFFFFFFFFFA8DFFFFFFE00FFFF500
+00DFFF705FFFFFFFFFFFFFFFFFFFFFFFFFFFFFE00FFFF500
+00DFFF705FFFFFFFFFFFFFFFFFFFFFFFFFFFFFE00FFFF500
+00DFFF705FFFFFFFFFFFFFFFFFFFFFFFFFFFFFE00FFFF500
+00DFFF705FFFFFFFFFFFFFFFFFFFFFFFFFFFFFE00FFFF500
+00DFFF705FFFFFFFFFFFFFFFFFFFFFFFFFFFFFE00FFFF500
+00CFFF705FFFFFF87777777777777777CFFFFFE00FFFF500
+008FFF705FFFFFF100000000000000009FFFFFE00FFFF100
+000699405FFFFFF76666666666666666CFFFFFE009982000
+000000005FFFFFFFFFFFFFFFFFFFFFFFFFFFFFE000000000
+000000005FFFFFFFFFFFFFFFFFFFFFFFFFFFFFE000000000
+000000004FFFFFFFFFFFFFFFFFFFFFFFFFFFFFC000000000
+000000000EFFFFFFFFFFFFFFFFFFFFFFFFFFFF7000000000
+0000000005FFFFFFFFFFFFFFFFFFFFFFFFFFFD0000000000
+00000000004CFFFFFFFFFFFFFFFFFFFFFFFF910000000000
+000000000000011111111111111111111110000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+sprite $robot2 [48x48/16] {
+000000000000000088888888888888880000000000000000
+000000000000000AFFFFFFFFFFFFFFFFA000000000000000
+00000000000000CFFFFFFFFFFFFFFFFFFC00000000000000
+00000000000004EFFFFFFFFFFFFFFFFFFE40000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFFA0000000000000
+00000000000008FFFFFFFFFFFFFFFFFFFF80000000000000
+00000000000008FFFFFFFFFFFFFFFFFFFF80000000000000
+00000000000008FFFFFFFFFFFFFFFFFFFF80000000000000
+00000000000888FFFFFFFFFFFFFFFFFFFF88800000000000
+00000000008FF8FFFFFFFFFFFFFFFFFFFF8FF80000000000
+00000000008FF8FFFFFFFFFFFFFFFFFFFF8FF80000000000
+00000000008FF8FFFFFFFFFFFFFFFFFFFF8FF80000000000
+00000000008FF8FFFFFFFFFFFFFFFFFFFF8FF80000000000
+00000000008FF8FFFFFFFFFFFFFFFFFFFF8FF80000000000
+00000000008FF8FFFFFFFFFFFFFFFFFFFF8FF80000000000
+00000000000888FFFFFFFFFFFFFFFFFFFF88800000000000
+00000000000008FFFFFFFFFFFFFFFFFFFF80000000000000
+00000000000008FFFFFFFFFFFFFFFFFFFF80000000000000
+00000000000008FFFFFFFFFFFFFFFFFFFF80000000000000
+00000000000008FFFFFFFFFFFFFFFFFFFF80000000000000
+00000000000008FFFFFFFFFFFFFFFFFFFF80000000000000
+00000000000004CFFFFFFFFFFFFFFFFFFC40000000000000
+000000488888848CFFFFFFFFFFFFFFFFC848888884000000
+00000CFFFFFFFFC888888888888888888CFFFFFFFFC00000
+00008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF80000
+0000CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFC0000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+0008FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFF8000
+0008FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFF8000
+0008FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFF8000
+0008FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFF8000
+0000CFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFC0000
+00008FFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFF80000
+00000CFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFC00000
+000000488887578888888888888888888864688884000000
+000000000000000000000000000000000000000000000000
+}
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam database<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam queue<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam person<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam actor<<person>> {
+    StereotypeFontColor #08427B
+    FontColor #08427B
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam database<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam person<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam actor<<external_person>> {
+    StereotypeFontColor #686868
+    FontColor #686868
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam queue<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam person<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam actor<<container>> {
+    StereotypeFontColor #438DD5
+    FontColor #438DD5
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam database<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam queue<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam person<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam actor<<external_container>> {
+    StereotypeFontColor #B3B3B3
+    FontColor #B3B3B3
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+
+skinparam rectangle<<container_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam database<<container_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam queue<<container_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam person<<container_boundary>> {
+    FontColor #444444
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam actor<<container_boundary>> {
+    FontColor transparent
+    BackgroundColor transparent
+    BorderColor #444444
+}
+skinparam package<<container_boundary>>StereotypeFontColor transparent
+skinparam rectangle<<container_boundary>>StereotypeFontColor transparent
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+skinparam database<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+skinparam queue<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+skinparam person<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+skinparam actor<<component>> {
+    StereotypeFontColor #85BBF0
+    FontColor #85BBF0
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+
+skinparam rectangle<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+skinparam database<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+skinparam queue<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+skinparam person<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+skinparam actor<<external_component>> {
+    StereotypeFontColor #CCCCCC
+    FontColor #CCCCCC
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rectangle "<$person>\n== Пользователь\n\nЛюбой человек - посетитель портала как из браузера, так и с мобильного приложения" <<external_person>> as user 
+
+rectangle "== Информационно-аналитический портал" <<boundary>> as portal  {
+    rectangle "== Фронтэнд Портала\n//<size:12>[ReactJS]</size>//\n\nSPA Портала - единый фронтэнд" <<container>> as spa 
+    rectangle "== Мобильное приложение Портал\n//<size:12>[ReactNative]</size>//\n\nМобильное приложение для Портала" <<container>> as mobile 
+
+    rectangle "== Gateway\n//<size:12>[AltLinux 8.4, Java Liberica JDK 17, Spring, Spring Security]</size>//\n\nОбщая точка доступа к порталу из сети Интернет" <<container>> as gateway [[https://raw.githubusercontent.com/gGerret/otus-project/master/svg/Gateway.svg]]
+
+    rectangle "== Сервис аналитики\n//<size:12>[AltLinux 8.4, Java Liberica JDK 17, Spring]</size>//\n\nСервис предоставляет " <<container>> as analytics 
+    database "== БД сервиса аналитики\n//<size:12>[PostgresPro 14]</size>//\n\nБаза подготовленных аналитических данных" <<container>> as analytics_db [[https://raw.githubusercontent.com/gGerret/otus-project/master/svg/Postgres.svg]]
+    analytics - ->> analytics_db : **JDBC**\n//<size:12>[5432]</size>//
+
+    rectangle "== Сервис проверки выписок\n//<size:12>[AltLinux 8.4, Java Liberica JDK 17, Spring]</size>//\n\nСервис проверки апостиля, возвращает пользователю информацию об апостиле и документе, на который он проставлен" <<container>> as apostille 
+    database "== БД выписок\n//<size:12>[PostgresPro 14]</size>//\n\nБаза данных выписок, выданных в Основной системе" <<container>> as apostille_db [[https://raw.githubusercontent.com/gGerret/otus-project/master/svg/Postgres.svg]]
+    apostille - ->> apostille_db : **JDBC**\n//<size:12>[5432]</size>//
+
+    rectangle "== Сервис проверки свидетельств\n//<size:12>[AltLinux 8.4, Java Liberica JDK 17, Spring]</size>//\n\nСервис проверки наличия свидетельства в БД Основной системы. " <<container>> as certificate 
+    database "== БД свидетельств\n//<size:12>[PostgresPro 14]</size>//\n\nБаза данных свидетельств, выданных в Основной системе" <<container>> as certificate_db [[https://raw.githubusercontent.com/gGerret/otus-project/master/svg/Postgres.svg]]
+    certificate - ->> certificate_db : **JDBC**\n//<size:12>[5432]</size>//
+
+    rectangle "== Сервис аутентификации и авторизации\n//<size:12>[AltLinux 8.4, Java Liberica JDK 17, Spring, Spring Security]</size>//\n\nСервис аутентификации и авторизации. Позволяет пользователям производить аутентификацию через ЕСИА и выдаёт разрешения на доступ к закрытому разделу" <<container>> as auth 
+
+    rectangle "== Платёжный шлюз\n//<size:12>[AltLinux 8.4, Java Liberica JDK 17, Spring]</size>//\n\nСервис, реализующий функцию передачи и отслеживания запросов на оплату госпошлины" <<container>> as payment 
+    database "== БД платежного шлюза\n//<size:12>[PostgresPro 14]</size>//\n\nБаза данных с историей платежей и ссылками на чеки" <<container>> as payment_db [[https://raw.githubusercontent.com/gGerret/otus-project/master/svg/Postgres.svg]]
+    payment - ->> payment_db : **JDBC**\n//<size:12>[5432]</size>//
+
+    rectangle "== Сервис справочной информации\n//<size:12>[AltLinux 8.4, Java Liberica JDK 17, Spring]</size>//\n\nСервис, предоставляющий различный справочники. синхронизированные с Основной системой" <<container>> as dictionary [[https://raw.githubusercontent.com/gGerret/otus-project/master/svg/Dict.svg]]
+    database "== БД справочников\n//<size:12>[PostgresPro 14, Tarntool]</size>//\n\nБаза данных справочников с кешем на Тарантуле" <<container>> as dictionary_db 
+    dictionary - ->> dictionary_db : **JDBC**\n//<size:12>[5432, 3301]</size>//
+
+    rectangle "== Сервис для разработчиков\n//<size:12>[AltLinux 8.4, Java Liberica JDK 17, Spring]</size>//\n\nПредоставляет различный справочные материалы и сервисы для разработчиков систем, которым требуется подключение к Основной системе для получения сведений через СМЭВ" <<container>> as developers 
+
+    rectangle "== Сервис закрытого раздела\n//<size:12>[AltLinux 8.4, Java Liberica JDK 17, Spring]</size>//\n\nРазличные сервисы для сотрудников" <<container>> as internal 
+    database "== БД закрытого раздела\n//<size:12>[PostgresPro 14]</size>//\n\nБаза данных закрытого раздела" <<container>> as internal_db [[https://raw.githubusercontent.com/gGerret/otus-project/master/svg/Postgres.svg]]
+    internal - ->> internal_db : **JDBC**\n//<size:12>[5432]</size>//
+
+
+    rectangle "== Apache NiFI\n\nПрименяется для преобразования и раскладки данных из Основной системы в БД Портала, а так же для сбора аналитической информации и раскладки её во внутреннюю аналитическую БД" <<system>> as nifi 
+    nifi -UP->> analytics_db : **JDBC**\n//<size:12>[5432]</size>//
+    nifi -UP->> apostille_db : **JDBC**\n//<size:12>[5432]</size>//
+    nifi -UP->> certificate_db : **JDBC**\n//<size:12>[5432]</size>//
+    nifi -UP->> dictionary_db : **JDBC**\n//<size:12>[5432]</size>//
+    nifi -UP->> payment_db : **JDBC**\n//<size:12>[5432]</size>//
+
+    queue "== public.main.portal\n//<size:12>[Kafka]</size>//\n\nОчередь загрузки данных на портал" <<container>> as data_queue 
+    nifi -DOWN->> data_queue : **Данны на портал**\n//<size:12>[9092]</size>//
+
+    queue "== public.portal.main\n//<size:12>[Kafka]</size>//\n\nОчередь для отчётов о загрузке данных и статистики оплаты" <<container>> as stat_queue 
+    nifi -DOWN->> stat_queue : **Статистика портала**\n//<size:12>[9092]</size>//
+
+
+    rectangle "== UpTrace\n\nСистема трассировки, сбора логов и метрик" <<system>> as uptrace [[https://raw.githubusercontent.com/gGerret/otus-project/master/svg/UpTrace.svg]]
+    rectangle "== Nomad\n\nОркестратор для сервисов без контейнеризации, плюс service discovery, плюс центральное конфигурирование" <<system>> as nomad 
+
+
+
+    spa - ->> gateway : **Syste**\n//<size:12>[HTTPS]</size>//
+    mobile - ->> gateway : **REST API**\n//<size:12>[HTTPS]</size>//
+    gateway -LEFT->> nomad : **Service**\n**Discovery**\n//<size:12>[HTTP]</size>//
+    gateway -RIGHT->> auth : **REST API**\n//<size:12>[HTTP]</size>//
+    gateway - ->> analytics : **REST API**\n//<size:12>[HTTP]</size>//
+    gateway - ->> apostille : **REST API**\n//<size:12>[HTTP]</size>//
+    gateway - ->> certificate : **REST API**\n//<size:12>[HTTP]</size>//
+    gateway - ->> payment : **REST API**\n//<size:12>[HTTP]</size>//
+    gateway - ->> dictionary : **REST API**\n//<size:12>[HTTP]</size>//
+    gateway - ->> developers : **REST API**\n//<size:12>[HTTP]</size>//
+    gateway - ->> internal : **REST API**\n//<size:12>[HTTP]</size>//
+}
+
+rectangle "== Поратл ЕСИА\n\nЕдиная система идентификации и аутентификации" <<external_system>> as esia 
+rectangle "== Платёжный шлюз Банка\n\nПлтёжный шлюз банка для передачи запросов на оплату госпошлины" <<external_system>> as bank 
+rectangle "== ТСМЭВ\n\nТестовый портал СМЭВ. Используется для отправки эталонных запросов внешним системам" <<external_system>> as tsmev 
+rectangle "== Сервис интеграции с порталом\n\nСервис для взаимодействия с Порталом. Передаёт данные для отображения на портале, забирает отчёты о загрузке данных и статистику оплаты" <<external_system>> as portal_puller 
+portal_puller -UP->> data_queue : **Выгрузка на Портал**\n//<size:12>[9092]</size>//
+portal_puller -UP->> stat_queue : **Получение с Портала**\n//<size:12>[9092]</size>//
+
+user - ->> spa : **REST API**\n//<size:12>[HTTPS]</size>//
+user - ->> mobile : **REST API**\n//<size:12>[HTTPS]</size>//
+auth -RIGHT->> esia : **label**\n//<size:12>[technology]</size>//
+payment -DOWN->> bank : **label**\n//<size:12>[technology]</size>//
+developers -LEFT->> tsmev : **label**\n//<size:12>[technology]</size>//
+
+@enduml
+
+PlantUML version 1.2021.00(Sun Jan 10 13:25:05 MSK 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1251
+Language: ru
+Country: RU
+--></g></svg>

@@ -11,34 +11,34 @@ Boundary(portal, "Информационно-аналитический порт
     Container(spa, "Фронтэнд Портала", "ReactJS","SPA Портала - единый фронтэнд")
     Container(mobile, "Мобильное приложение Портал", "ReactNative","Мобильное приложение для Портала")
 
-    Container(gateway, "Gateway", "AltLinux 8.4, Java Liberica JDK 17, Spring, Spring Security","Общая точка доступа к порталу из сети Интернет", "", "", "http://yandex.ru")
+    Container(gateway, "Gateway", "AltLinux 8.4, Java Liberica JDK 17, Spring, Spring Security","Общая точка доступа к порталу из сети Интернет", "", "", "https://raw.githubusercontent.com/gGerret/otus-project/master/svg/Gateway.svg")
 
     Container(analytics, "Сервис аналитики", "AltLinux 8.4, Java Liberica JDK 17, Spring", "Сервис предоставляет ")
-    ContainerDb(analytics_db, "БД сервиса аналитики", "PostgresPro 14", "База подготовленных аналитических данных")
+    ContainerDb(analytics_db, "БД сервиса аналитики", "PostgresPro 14", "База подготовленных аналитических данных", "", "", "https://raw.githubusercontent.com/gGerret/otus-project/master/svg/Postgres.svg")
     Rel(analytics, analytics_db, "JDBC", "5432")
 
     Container(apostille, "Сервис проверки выписок", "AltLinux 8.4, Java Liberica JDK 17, Spring", "Сервис проверки апостиля, возвращает пользователю информацию об апостиле и документе, на который он проставлен")
-    ContainerDb(apostille_db, "БД выписок", "PostgresPro 14", "База данных выписок, выданных в Основной системе")
+    ContainerDb(apostille_db, "БД выписок", "PostgresPro 14", "База данных выписок, выданных в Основной системе", "", "", "https://raw.githubusercontent.com/gGerret/otus-project/master/svg/Postgres.svg")
     Rel(apostille, apostille_db, "JDBC", "5432")
 
     Container(certificate,"Сервис проверки свидетельств","AltLinux 8.4, Java Liberica JDK 17, Spring","Сервис проверки наличия свидетельства в БД Основной системы. ")
-    ContainerDb(certificate_db, "БД свидетельств", "PostgresPro 14", "База данных свидетельств, выданных в Основной системе")
+    ContainerDb(certificate_db, "БД свидетельств", "PostgresPro 14", "База данных свидетельств, выданных в Основной системе", "", "", "https://raw.githubusercontent.com/gGerret/otus-project/master/svg/Postgres.svg")
     Rel(certificate, certificate_db, "JDBC", "5432")
 
     Container(auth,"Сервис аутентификации и авторизации","AltLinux 8.4, Java Liberica JDK 17, Spring, Spring Security","Сервис аутентификации и авторизации. Позволяет пользователям производить аутентификацию через ЕСИА и выдаёт разрешения на доступ к закрытому разделу")
 
     Container(payment, "Платёжный шлюз", "AltLinux 8.4, Java Liberica JDK 17, Spring", "Сервис, реализующий функцию передачи и отслеживания запросов на оплату госпошлины")
-    ContainerDb(payment_db, "БД платежного шлюза", "PostgresPro 14", "База данных с историей платежей и ссылками на чеки")
+    ContainerDb(payment_db, "БД платежного шлюза", "PostgresPro 14", "База данных с историей платежей и ссылками на чеки", "", "", "https://raw.githubusercontent.com/gGerret/otus-project/master/svg/Postgres.svg")
     Rel(payment, payment_db, "JDBC", "5432")
 
-    Container(dictionary, "Сервис справочной информации", "AltLinux 8.4, Java Liberica JDK 17, Spring", "Сервис, предоставляющий различный справочники. синхронизированные с Основной системой")
+    Container(dictionary, "Сервис справочной информации", "AltLinux 8.4, Java Liberica JDK 17, Spring", "Сервис, предоставляющий различный справочники. синхронизированные с Основной системой", "", "", "https://raw.githubusercontent.com/gGerret/otus-project/master/svg/Dict.svg")
     ContainerDb(dictionary_db, "БД справочников", "PostgresPro 14, Tarntool", "База данных справочников с кешем на Тарантуле")
     Rel(dictionary, dictionary_db, "JDBC", "5432, 3301")
 
     Container(developers, "Сервис для разработчиков", "AltLinux 8.4, Java Liberica JDK 17, Spring", "Предоставляет различный справочные материалы и сервисы для разработчиков систем, которым требуется подключение к Основной системе для получения сведений через СМЭВ")
 
     Container(internal, "Сервис закрытого раздела", "AltLinux 8.4, Java Liberica JDK 17, Spring", "Различные сервисы для сотрудников")
-    ContainerDb(internal_db, "БД закрытого раздела", "PostgresPro 14", "База данных закрытого раздела")
+    ContainerDb(internal_db, "БД закрытого раздела", "PostgresPro 14", "База данных закрытого раздела", "", "", "https://raw.githubusercontent.com/gGerret/otus-project/master/svg/Postgres.svg")
     Rel(internal, internal_db, "JDBC", "5432")
 
     ' Внутренние системы
@@ -57,7 +57,7 @@ Boundary(portal, "Информационно-аналитический порт
     Rel_D(nifi, stat_queue, "Статистика портала", "9092")
 
 
-    System(uptrace, "UpTrace", "Система трассировки, сбора логов и метрик")
+    System(uptrace, "UpTrace", "Система трассировки, сбора логов и метрик", "", "", "https://raw.githubusercontent.com/gGerret/otus-project/master/svg/UpTrace.svg")
     System(nomad, "Nomad", "Оркестратор для сервисов без контейнеризации, плюс service discovery, плюс центральное конфигурирование")
 
 

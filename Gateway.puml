@@ -14,7 +14,7 @@ Container_Boundary(gateway, "Gateway") {
     Container(gate_service, "UI бэкэнд", "AltLinux 8.4, Java Liberica 17, Spring", "Сервис обеспечивающий сохранение настроек пользовательского интерфейса")
     Rel(nginx1, gate_service, "Keepalive", "VRRP")
     Rel(nginx2, gate_service, "Keepalive", "VRRP")
-    ContainerDb(gate_db, "UI БД", "PostgresPro 14", "Для долговременного хранения настроек пользовательского интерфейса")
+    ContainerDb(gate_db, "UI БД", "PostgresPro 14", "Для долговременного хранения настроек пользовательского интерфейса", "", "", "https://raw.githubusercontent.com/gGerret/otus-project/master/svg/Postgres.svg")
     Rel(gate_service, gate_db, "JDBC", "5432")
 }
 Container_Ext(spa, "Фронтэнд Портала", "ReactJS","SPA Портала - единый фронтэнд")
