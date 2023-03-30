@@ -19,6 +19,9 @@ Boundary(dbnode2, "DbServer2", "Deployment Node: s000_db002") {
 Boundary(dbnode3, "DbArbitration", "Deployment Node: s000_db003") {
     Container(patroni3, "Patroni", "", "")
 }
+
+Rel(master, sync, "replication", "5432")
+
 BiRel_L(patroni3, patroni1, "")
 BiRel_L(patroni1, patroni2, "")
 BiRel(patroni2, patroni3, "")
