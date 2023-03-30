@@ -4,23 +4,23 @@
 
 Boundary(dbnode1, "DbServer1", "Deployment Node: s000_db001") {
     ContainerDb(master, "Master", "PostgresPro 14", "Мастернода кластера PostgresPro")
-    Container(patrony1, "Patrony", "", "")
-    Rel_L(patrony1, master, "health")
-    Lay_L(patrony1, master)
+    Container(patroni1, "Patroni", "", "")
+    Rel_L(patroni1, master, "health")
+    Lay_L(patroni1, master)
 }
 
 Boundary(dbnode2, "DbServer2", "Deployment Node: s000_db002") {
-    Container(patrony2, "Patrony", "", "")
+    Container(patroni2, "Patroni", "", "")
     ContainerDb(sync, "Sync", "PostgresPro 14", "Синхронная реплика кластера PostgresPro")
-    Rel_R(patrony2, sync, "health")
-    Lay_R(patrony2, sync)
+    Rel_R(patroni2, sync, "health")
+    Lay_R(patroni2, sync)
 }
 
 Boundary(dbnode3, "DbArbitration", "Deployment Node: s000_db003") {
-    Container(patrony3, "Patrony", "", "")
+    Container(patroni3, "Patroni", "", "")
 }
-BiRel_L(patrony3, patrony1, "")
-BiRel_L(patrony1, patrony2, "")
-BiRel(patrony2, patrony3, "")
+BiRel_L(patroni3, patroni1, "")
+BiRel_L(patroni1, patroni2, "")
+BiRel(patroni2, patroni3, "")
 
 @enduml

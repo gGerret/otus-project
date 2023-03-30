@@ -2,42 +2,42 @@
 cluster dbnode1--><rect fill="#FFFFFF" height="127.2" style="stroke:#444444;stroke-width:0.6;stroke-dasharray:7.0,7.0;" width="215.4" x="4.2" y="4.2"/><text fill="#FFFFFF" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="17.4" x="103.2" y="9.1371">«boundary»</text><text fill="#444444" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="48.6" x="87.6" y="21.3656">DbServer1</text><text fill="#444444" font-family="sans-serif" font-size="7.2" lengthAdjust="spacing" textLength="108.6" x="57.6" y="30.9492">[Deployment Node: s000_db001]</text><!--MD5=[24508fdc138ed3a39102b7e2ce1ac767]
 cluster dbnode2--><rect fill="#FFFFFF" height="127.2" style="stroke:#444444;stroke-width:0.6;stroke-dasharray:7.0,7.0;" width="210.6" x="234" y="4.2"/><text fill="#FFFFFF" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="17.4" x="330.6" y="9.1371">«boundary»</text><text fill="#444444" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="48.6" x="315" y="21.3656">DbServer2</text><text fill="#444444" font-family="sans-serif" font-size="7.2" lengthAdjust="spacing" textLength="108.6" x="285" y="30.9492">[Deployment Node: s000_db002]</text><!--MD5=[1d83be7d44a003fd2c83c91cb900ca7e]
 cluster dbnode3--><rect fill="#FFFFFF" height="81" style="stroke:#444444;stroke-width:0.6;stroke-dasharray:7.0,7.0;" width="118.2" x="175.2" y="151.8"/><text fill="#FFFFFF" font-family="sans-serif" font-size="3.6" font-style="italic" lengthAdjust="spacing" textLength="17.4" x="225.6" y="156.7371">«boundary»</text><text fill="#444444" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="61.2" x="203.7" y="168.9656">DbArbitration</text><text fill="#444444" font-family="sans-serif" font-size="7.2" lengthAdjust="spacing" textLength="108.6" x="180" y="178.5492">[Deployment Node: s000_db003]</text><!--MD5=[e6001af16d4774e0fdad2715570119d9]
-entity master--><path d="M14.1,48.6 C14.1,42.6 64.8,42.6 64.8,42.6 C64.8,42.6 115.5,42.6 115.5,48.6 L115.5,115.8844 C115.5,121.8844 64.8,121.8844 64.8,121.8844 C64.8,121.8844 14.1,121.8844 14.1,115.8844 L14.1,48.6 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:0.8999999999999999;"/><path d="M14.1,48.6 C14.1,54.6 64.8,54.6 64.8,54.6 C64.8,54.6 115.5,54.6 115.5,48.6 " fill="none" style="stroke:#3C7FC0;stroke-width:0.8999999999999999;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="39" x="45.3" y="64.4742">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="30.6" x="49.5" y="76.0219">Master</text><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="54" x="37.8" y="85.6055">[PostgresPro 14]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="0" x="66" y="95.9074"/><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="87" x="20.1" y="106.473">Мастернода кластера</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="46.8" x="41.4" y="117.0387">PostgresPro</text><!--MD5=[2b5084f189a3cace62ea2998514de552]
-entity patrony1--><rect fill="#438DD5" height="33.1313" style="stroke:#3C7FC0;stroke-width:0.8999999999999999;" width="51" x="158.7" y="65.7"/><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="39" x="164.7" y="79.1742">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="36" x="166.2" y="90.7219">Patrony</text><!--MD5=[5640c2613d8e462fe1bab34c1cd95ec5]
-entity patrony2--><rect fill="#438DD5" height="33.1313" style="stroke:#3C7FC0;stroke-width:0.8999999999999999;" width="51" x="243.9" y="65.7"/><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="39" x="249.9" y="79.1742">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="36" x="251.4" y="90.7219">Patrony</text><!--MD5=[8b44882b8e17850e01b1ad5c18eac763]
-entity sync--><path d="M337.8,48.6 C337.8,42.6 386.4,42.6 386.4,42.6 C386.4,42.6 435,42.6 435,48.6 L435,115.8844 C435,121.8844 386.4,121.8844 386.4,121.8844 C386.4,121.8844 337.8,121.8844 337.8,115.8844 L337.8,48.6 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:0.8999999999999999;"/><path d="M337.8,48.6 C337.8,54.6 386.4,54.6 386.4,54.6 C386.4,54.6 435,54.6 435,48.6 " fill="none" style="stroke:#3C7FC0;stroke-width:0.8999999999999999;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="39" x="366.9" y="64.4742">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="23.4" x="374.7" y="76.0219">Sync</text><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="54" x="359.4" y="85.6055">[PostgresPro 14]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="0" x="387.6" y="95.9074"/><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="82.8" x="343.8" y="106.473">Синхронная реплика</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="85.2" x="343.8" y="117.0387">кластера PostgresPro</text><!--MD5=[bd2c6fa5889952c984233398aa7e9185]
-entity patrony3--><rect fill="#438DD5" height="33.1313" style="stroke:#3C7FC0;stroke-width:0.8999999999999999;" width="51" x="208.5" y="190.2"/><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="39" x="214.5" y="203.6742">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="36" x="216" y="215.2219">Patrony</text><!--MD5=[c57cb2fef0fdccea11f679b5b7307ece]
-reverse link master to patrony1--><path d="M120.504,82.2 C133.836,82.2 147.438,82.2 158.628,82.2 " fill="none" id="master-backto-patrony1" style="stroke:#666666;stroke-width:0.6;"/><polygon fill="#666666" points="115.608,82.2,120.408,84,120.408,80.4,115.608,82.2" style="stroke:#666666;stroke-width:0.6;"/><text fill="#666666" font-family="sans-serif" font-size="7.2" font-weight="bold" lengthAdjust="spacing" textLength="21" x="126.6" y="78.2742">health</text><!--MD5=[ca0335d09e896fafd8a04c179768eabb]
-link master to patrony1--><!--MD5=[3c12e90dda44faa675c93b51a0c61114]
-link patrony2 to sync--><path d="M295.074,82.2 C306.222,82.2 319.71,82.2 332.868,82.2 " fill="none" id="patrony2-to-sync" style="stroke:#666666;stroke-width:0.6;"/><polygon fill="#666666" points="337.692,82.2,332.892,80.4,332.892,84,337.692,82.2" style="stroke:#666666;stroke-width:0.6;"/><text fill="#666666" font-family="sans-serif" font-size="7.2" font-weight="bold" lengthAdjust="spacing" textLength="21" x="305.85" y="78.2742">health</text><!--MD5=[3c12e90dda44faa675c93b51a0c61114]
-link patrony2 to sync--><!--MD5=[1ff79eb664b5c57b7f2f0bcf17c7b5af]
-link patrony1 to patrony3--><path d="M192.534,103.44 C201.744,126.24 216.492,162.75 225.69,185.532 " fill="none" id="patrony1-patrony3" style="stroke:#666666;stroke-width:0.6;"/><polygon fill="#666666" points="227.568,190.17,227.4447,185.0451,224.1053,186.3898,227.568,190.17" style="stroke:#666666;stroke-width:0.6;"/><polygon fill="#666666" points="190.71,98.922,190.8418,104.0467,194.179,102.6964,190.71,98.922" style="stroke:#666666;stroke-width:0.6;"/><!--MD5=[ea593abadb237de3a5db57abde26b11b]
-link patrony2 to patrony1--><path d="M239.022,82.2 C231.108,82.2 222.582,82.2 214.668,82.2 " fill="none" id="patrony2-patrony1" style="stroke:#666666;stroke-width:0.6;"/><polygon fill="#666666" points="209.76,82.2,214.56,84,214.56,80.4,209.76,82.2" style="stroke:#666666;stroke-width:0.6;"/><polygon fill="#666666" points="243.858,82.2,239.058,80.4,239.058,84,243.858,82.2" style="stroke:#666666;stroke-width:0.6;"/><!--MD5=[470b265f0df3ddf54c848bed29185968]
-link patrony2 to patrony3--><path d="M263.43,103.59 C256.878,126.408 246.426,162.81 239.904,185.538 " fill="none" id="patrony2-patrony3" style="stroke:#666666;stroke-width:0.6;"/><polygon fill="#666666" points="238.572,190.17,241.6305,186.0559,238.1712,185.0593,238.572,190.17" style="stroke:#666666;stroke-width:0.6;"/><polygon fill="#666666" points="264.774,98.922,261.7155,103.0361,265.1748,104.0327,264.774,98.922" style="stroke:#666666;stroke-width:0.6;"/><!--MD5=[2add90acf2b023259ba12a3b0a6081dd]
+entity master--><path d="M14.1,48.6 C14.1,42.6 64.8,42.6 64.8,42.6 C64.8,42.6 115.5,42.6 115.5,48.6 L115.5,115.8844 C115.5,121.8844 64.8,121.8844 64.8,121.8844 C64.8,121.8844 14.1,121.8844 14.1,115.8844 L14.1,48.6 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:0.8999999999999999;"/><path d="M14.1,48.6 C14.1,54.6 64.8,54.6 64.8,54.6 C64.8,54.6 115.5,54.6 115.5,48.6 " fill="none" style="stroke:#3C7FC0;stroke-width:0.8999999999999999;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="39" x="45.3" y="64.4742">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="30.6" x="49.5" y="76.0219">Master</text><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="54" x="37.8" y="85.6055">[PostgresPro 14]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="0" x="66" y="95.9074"/><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="87" x="20.1" y="106.473">Мастернода кластера</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="46.8" x="41.4" y="117.0387">PostgresPro</text><!--MD5=[fbbf483916aebd6b0dd33cd1bc1c3f04]
+entity patroni1--><rect fill="#438DD5" height="33.1313" style="stroke:#3C7FC0;stroke-width:0.8999999999999999;" width="51" x="158.7" y="65.7"/><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="39" x="164.7" y="79.1742">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="33" x="167.7" y="90.7219">Patroni</text><!--MD5=[3ad6cc31f2f7b5fe6bd14f503126e384]
+entity patroni2--><rect fill="#438DD5" height="33.1313" style="stroke:#3C7FC0;stroke-width:0.8999999999999999;" width="51" x="243.9" y="65.7"/><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="39" x="249.9" y="79.1742">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="33" x="252.9" y="90.7219">Patroni</text><!--MD5=[8b44882b8e17850e01b1ad5c18eac763]
+entity sync--><path d="M337.8,48.6 C337.8,42.6 386.4,42.6 386.4,42.6 C386.4,42.6 435,42.6 435,48.6 L435,115.8844 C435,121.8844 386.4,121.8844 386.4,121.8844 C386.4,121.8844 337.8,121.8844 337.8,115.8844 L337.8,48.6 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:0.8999999999999999;"/><path d="M337.8,48.6 C337.8,54.6 386.4,54.6 386.4,54.6 C386.4,54.6 435,54.6 435,48.6 " fill="none" style="stroke:#3C7FC0;stroke-width:0.8999999999999999;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="39" x="366.9" y="64.4742">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="23.4" x="374.7" y="76.0219">Sync</text><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="54" x="359.4" y="85.6055">[PostgresPro 14]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="0" x="387.6" y="95.9074"/><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="82.8" x="343.8" y="106.473">Синхронная реплика</text><text fill="#FFFFFF" font-family="sans-serif" font-size="8.4" lengthAdjust="spacing" textLength="85.2" x="343.8" y="117.0387">кластера PostgresPro</text><!--MD5=[6b804254b78e106bc605aaccbb8abc48]
+entity patroni3--><rect fill="#438DD5" height="33.1313" style="stroke:#3C7FC0;stroke-width:0.8999999999999999;" width="51" x="208.5" y="190.2"/><text fill="#FFFFFF" font-family="sans-serif" font-size="7.2" font-style="italic" lengthAdjust="spacing" textLength="39" x="214.5" y="203.6742">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="9.6" font-weight="bold" lengthAdjust="spacing" textLength="33" x="217.5" y="215.2219">Patroni</text><!--MD5=[8f8506216be8db61ea88a35e8ebf8996]
+reverse link master to patroni1--><path d="M120.504,82.2 C133.836,82.2 147.438,82.2 158.628,82.2 " fill="none" id="master-backto-patroni1" style="stroke:#666666;stroke-width:0.6;"/><polygon fill="#666666" points="115.608,82.2,120.408,84,120.408,80.4,115.608,82.2" style="stroke:#666666;stroke-width:0.6;"/><text fill="#666666" font-family="sans-serif" font-size="7.2" font-weight="bold" lengthAdjust="spacing" textLength="21" x="126.6" y="78.2742">health</text><!--MD5=[ea6b118201cbbc15862a34786505dd7c]
+link master to patroni1--><!--MD5=[49e4e0305a309bd557609cec36ea6a96]
+link patroni2 to sync--><path d="M295.074,82.2 C306.222,82.2 319.71,82.2 332.868,82.2 " fill="none" id="patroni2-to-sync" style="stroke:#666666;stroke-width:0.6;"/><polygon fill="#666666" points="337.692,82.2,332.892,80.4,332.892,84,337.692,82.2" style="stroke:#666666;stroke-width:0.6;"/><text fill="#666666" font-family="sans-serif" font-size="7.2" font-weight="bold" lengthAdjust="spacing" textLength="21" x="305.85" y="78.2742">health</text><!--MD5=[49e4e0305a309bd557609cec36ea6a96]
+link patroni2 to sync--><!--MD5=[b5875e934cada7fdc665db6adfd13ac0]
+link patroni1 to patroni3--><path d="M192.534,103.44 C201.744,126.24 216.492,162.75 225.69,185.532 " fill="none" id="patroni1-patroni3" style="stroke:#666666;stroke-width:0.6;"/><polygon fill="#666666" points="227.568,190.17,227.4447,185.0451,224.1053,186.3898,227.568,190.17" style="stroke:#666666;stroke-width:0.6;"/><polygon fill="#666666" points="190.71,98.922,190.8418,104.0467,194.179,102.6964,190.71,98.922" style="stroke:#666666;stroke-width:0.6;"/><!--MD5=[85d59d619dc61fd6cb0296be82fb9310]
+link patroni2 to patroni1--><path d="M239.022,82.2 C231.108,82.2 222.582,82.2 214.668,82.2 " fill="none" id="patroni2-patroni1" style="stroke:#666666;stroke-width:0.6;"/><polygon fill="#666666" points="209.76,82.2,214.56,84,214.56,80.4,209.76,82.2" style="stroke:#666666;stroke-width:0.6;"/><polygon fill="#666666" points="243.858,82.2,239.058,80.4,239.058,84,243.858,82.2" style="stroke:#666666;stroke-width:0.6;"/><!--MD5=[6253847e7cd087752b6394e37eac7de4]
+link patroni2 to patroni3--><path d="M263.43,103.59 C256.878,126.408 246.426,162.81 239.904,185.538 " fill="none" id="patroni2-patroni3" style="stroke:#666666;stroke-width:0.6;"/><polygon fill="#666666" points="238.572,190.17,241.6305,186.0559,238.1712,185.0593,238.572,190.17" style="stroke:#666666;stroke-width:0.6;"/><polygon fill="#666666" points="264.774,98.922,261.7155,103.0361,265.1748,104.0327,264.774,98.922" style="stroke:#666666;stroke-width:0.6;"/><!--MD5=[f731e7d1c3ab5e8dd0e5361aef8bd71e]
 @startuml
 
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
 
 Boundary(dbnode1, "DbServer1", "Deployment Node: s000_db001") {
     ContainerDb(master, "Master", "PostgresPro 14", "Мастернода кластера PostgresPro")
-    Container(patrony1, "Patrony", "", "")
-    Rel_L(patrony1, master, "health")
-    Lay_L(patrony1, master)
+    Container(patroni1, "Patroni", "", "")
+    Rel_L(patroni1, master, "health")
+    Lay_L(patroni1, master)
 }
 
 Boundary(dbnode2, "DbServer2", "Deployment Node: s000_db002") {
-    Container(patrony2, "Patrony", "", "")
+    Container(patroni2, "Patroni", "", "")
     ContainerDb(sync, "Sync", "PostgresPro 14", "Синхронная реплика кластера PostgresPro")
-    Rel_R(patrony2, sync, "health")
-    Lay_R(patrony2, sync)
+    Rel_R(patroni2, sync, "health")
+    Lay_R(patroni2, sync)
 }
 
 Boundary(dbnode3, "DbArbitration", "Deployment Node: s000_db003") {
-    Container(patrony3, "Patrony", "", "")
+    Container(patroni3, "Patroni", "", "")
 }
-BiRel_L(patrony3, patrony1, "")
-BiRel_L(patrony1, patrony2, "")
-BiRel(patrony2, patrony3, "")
+BiRel_L(patroni3, patroni1, "")
+BiRel_L(patroni1, patroni2, "")
+BiRel(patroni2, patroni3, "")
 
 @enduml
 
@@ -946,24 +946,24 @@ skinparam rectangle<<container_boundary>>StereotypeFontColor transparent
 
 rectangle "== DbServer1\n<size:12>[Deployment Node: s000_db001]</size>" <<boundary>> as dbnode1  {
     database "== Master\n//<size:12>[PostgresPro 14]</size>//\n\nМастернода кластера PostgresPro" <<container>> as master 
-    rectangle "== Patrony" <<container>> as patrony1 
-    patrony1 -LEFT->> master : **health**
-    patrony1 -[hidden]L- master
+    rectangle "== Patroni" <<container>> as patroni1 
+    patroni1 -LEFT->> master : **health**
+    patroni1 -[hidden]L- master
 }
 
 rectangle "== DbServer2\n<size:12>[Deployment Node: s000_db002]</size>" <<boundary>> as dbnode2  {
-    rectangle "== Patrony" <<container>> as patrony2 
+    rectangle "== Patroni" <<container>> as patroni2 
     database "== Sync\n//<size:12>[PostgresPro 14]</size>//\n\nСинхронная реплика кластера PostgresPro" <<container>> as sync 
-    patrony2 -RIGHT->> sync : **health**
-    patrony2 -[hidden]R- sync
+    patroni2 -RIGHT->> sync : **health**
+    patroni2 -[hidden]R- sync
 }
 
 rectangle "== DbArbitration\n<size:12>[Deployment Node: s000_db003]</size>" <<boundary>> as dbnode3  {
-    rectangle "== Patrony" <<container>> as patrony3 
+    rectangle "== Patroni" <<container>> as patroni3 
 }
-patrony3 <<-LEFT->> patrony1 : <size:0>.</size>
-patrony1 <<-LEFT->> patrony2 : <size:0>.</size>
-patrony2 <<- ->> patrony3 : <size:0>.</size>
+patroni3 <<-LEFT->> patroni1 : <size:0>.</size>
+patroni1 <<-LEFT->> patroni2 : <size:0>.</size>
+patroni2 <<- ->> patroni3 : <size:0>.</size>
 
 @enduml
 
